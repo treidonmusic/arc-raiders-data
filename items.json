@@ -1,12 +1,13 @@
 {
-  "last_updated": "2025-12-01T00:43:33.132385",
+  "last_updated": "2025-12-01T00:58:23.854578",
   "version": "1.0",
   "item_count": 212,
   "items": {
     "Advanced ARC Powercell": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xARC Powercell"
+        "Recycles to:",
+        "2x ARC Powercell"
       ],
       "needed_for": null,
       "recycles_to": "2xARC Powercell"
@@ -31,7 +32,8 @@
     "Agave": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xAssorted Seeds"
+        "Recycles to:",
+        "3x Assorted Seeds"
       ],
       "needed_for": null,
       "recycles_to": "3xAssorted Seeds"
@@ -47,7 +49,9 @@
     "Alarm Clock": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xProcessor6xPlastic Parts"
+        "Recycles to:",
+        "1x Processor",
+        "6x Plastic Parts"
       ],
       "needed_for": null,
       "recycles_to": "1xProcessor6xPlastic Parts"
@@ -89,7 +93,8 @@
     "ARC Coolant": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 16xChemicals"
+        "Recycles to:",
+        "16x Chemicals"
       ],
       "needed_for": null,
       "recycles_to": "16xChemicals"
@@ -97,7 +102,8 @@
     "ARC Flex Rubber": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 16xRubber Parts"
+        "Recycles to:",
+        "16x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "16xRubber Parts"
@@ -113,7 +119,8 @@
     "ARC Performance Steel": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 12xMetal Parts"
+        "Recycles to:",
+        "12x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "12xMetal Parts"
@@ -129,7 +136,8 @@
     "ARC Synthetic Resin": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 14xPlastic Parts"
+        "Recycles to:",
+        "14x Plastic Parts"
       ],
       "needed_for": null,
       "recycles_to": "14xPlastic Parts"
@@ -137,7 +145,8 @@
     "ARC Thermo Lining": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 16xFabric"
+        "Recycles to:",
+        "16x Fabric"
       ],
       "needed_for": null,
       "recycles_to": "16xFabric"
@@ -169,7 +178,9 @@
     "Bicycle Pump": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 4xCanister10xMetal Parts"
+        "Recycles to:",
+        "4x Canister",
+        "10x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "4xCanister10xMetal Parts"
@@ -233,7 +244,9 @@
     "Broken Flashlight": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xBattery6xMetal Parts"
+        "Recycles to:",
+        "2x Battery",
+        "6x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "2xBattery6xMetal Parts"
@@ -241,7 +254,8 @@
     "Broken Guidance System": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 4xProcessor"
+        "Recycles to:",
+        "4x Processor"
       ],
       "needed_for": null,
       "recycles_to": "4xProcessor"
@@ -249,7 +263,9 @@
     "Broken Handheld Radio": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xSensors3xWires"
+        "Recycles to:",
+        "3x Sensors",
+        "3x Wires"
       ],
       "needed_for": null,
       "recycles_to": "3xSensors3xWires"
@@ -257,7 +273,9 @@
     "Broken Taser": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xBattery2xWires"
+        "Recycles to:",
+        "2x Battery",
+        "2x Wires"
       ],
       "needed_for": null,
       "recycles_to": "2xBattery2xWires"
@@ -297,7 +315,8 @@
     "Burned ARC Circuitry": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xARC Alloy"
+        "Recycles to:",
+        "2x ARC Alloy"
       ],
       "needed_for": null,
       "recycles_to": "2xARC Alloy"
@@ -305,7 +324,8 @@
     "Camera Lens": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 8xPlastic Parts"
+        "Recycles to:",
+        "8x Plastic Parts"
       ],
       "needed_for": null,
       "recycles_to": "8xPlastic Parts"
@@ -313,7 +333,8 @@
     "Candle Holder": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 8xMetal Parts"
+        "Recycles to:",
+        "8x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
@@ -321,7 +342,8 @@
     "Canister": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xPlastic Parts"
+        "Recycles to:",
+        "3x Plastic Parts"
       ],
       "needed_for": null,
       "recycles_to": "3xPlastic Parts"
@@ -353,7 +375,8 @@
     "Complex Gun Parts": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xSimple Gun Parts"
+        "Recycles to:",
+        "3x Simple Gun Parts"
       ],
       "needed_for": null,
       "recycles_to": "3xSimple Gun Parts"
@@ -361,7 +384,9 @@
     "Coolant": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 5xChemicals2xOil"
+        "Recycles to:",
+        "5x Chemicals",
+        "2x Oil"
       ],
       "needed_for": null,
       "recycles_to": "5xChemicals2xOil"
@@ -369,7 +394,9 @@
     "Cooling Coil": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 6xChemicals2xSteel Spring"
+        "Recycles to:",
+        "6x Chemicals",
+        "2x Steel Spring"
       ],
       "needed_for": null,
       "recycles_to": "6xChemicals2xSteel Spring"
@@ -401,7 +428,8 @@
     "Crumpled Plastic Bottle": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xPlastic Parts"
+        "Recycles to:",
+        "3x Plastic Parts"
       ],
       "needed_for": null,
       "recycles_to": "3xPlastic Parts"
@@ -449,7 +477,8 @@
     "Damaged ARC Motion Core": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xARC Alloy"
+        "Recycles to:",
+        "2x ARC Alloy"
       ],
       "needed_for": null,
       "recycles_to": "2xARC Alloy"
@@ -457,7 +486,8 @@
     "Damaged ARC Powercell": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xARC Alloy"
+        "Recycles to:",
+        "1x ARC Alloy"
       ],
       "needed_for": null,
       "recycles_to": "1xARC Alloy"
@@ -465,7 +495,8 @@
     "Damaged Fireball Burner": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xARC Alloy"
+        "Recycles to:",
+        "1x ARC Alloy"
       ],
       "needed_for": null,
       "recycles_to": "1xARC Alloy"
@@ -481,7 +512,8 @@
     "Damaged Hornet Driver": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xARC Alloy"
+        "Recycles to:",
+        "2x ARC Alloy"
       ],
       "needed_for": null,
       "recycles_to": "2xARC Alloy"
@@ -489,7 +521,8 @@
     "Damaged Rocketeer Driver": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xARC Alloy"
+        "Recycles to:",
+        "3x ARC Alloy"
       ],
       "needed_for": null,
       "recycles_to": "3xARC Alloy"
@@ -497,7 +530,8 @@
     "Damaged Snitch Scanner": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: -"
+        "Recycles to:",
+        "-"
       ],
       "needed_for": null,
       "recycles_to": "-"
@@ -505,7 +539,8 @@
     "Damaged Tick Pod": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xARC Alloy"
+        "Recycles to:",
+        "1x ARC Alloy"
       ],
       "needed_for": null,
       "recycles_to": "1xARC Alloy"
@@ -513,7 +548,8 @@
     "Damaged Wasp Driver": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xARC Alloy"
+        "Recycles to:",
+        "1x ARC Alloy"
       ],
       "needed_for": null,
       "recycles_to": "1xARC Alloy"
@@ -529,7 +565,8 @@
     "Deflated Football": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 15xRubber Parts"
+        "Recycles to:",
+        "15x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "15xRubber Parts"
@@ -537,7 +574,8 @@
     "Degraded ARC Rubber": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 11xRubber Parts"
+        "Recycles to:",
+        "11x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "11xRubber Parts"
@@ -545,7 +583,8 @@
     "Diving Goggles": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 12xRubber Parts"
+        "Recycles to:",
+        "12x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "12xRubber Parts"
@@ -561,7 +600,8 @@
     "Dried-Out ARC Resin": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 9xPlastic Parts"
+        "Recycles to:",
+        "9x Plastic Parts"
       ],
       "needed_for": null,
       "recycles_to": "9xPlastic Parts"
@@ -569,7 +609,8 @@
     "Duct Tape": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xFabric"
+        "Recycles to:",
+        "3x Fabric"
       ],
       "needed_for": null,
       "recycles_to": "3xFabric"
@@ -620,7 +661,9 @@
     "Expired Respirator": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 8xRubber Parts4xFabric"
+        "Recycles to:",
+        "8x Rubber Parts",
+        "4x Fabric"
       ],
       "needed_for": null,
       "recycles_to": "8xRubber Parts4xFabric"
@@ -644,7 +687,7 @@
     "Faded Photograph": {
       "action": "KEEP",
       "reason": [
-        "Quest"
+        "2x Quest"
       ],
       "needed_for": "2x Quest",
       "recycles_to": "Cannot be recycled"
@@ -660,7 +703,7 @@
     "Film Reel": {
       "action": "KEEP",
       "reason": [
-        "Quest"
+        "1x Quest"
       ],
       "needed_for": "1x Quest",
       "recycles_to": "Cannot be recycled"
@@ -684,7 +727,9 @@
     "Frequency Modulation Box": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xAdvanced Electrical Components1xSpeaker Component"
+        "Recycles to:",
+        "1x Advanced Electrical Components",
+        "1x Speaker Component"
       ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Electrical Components1xSpeaker Component"
@@ -700,7 +745,8 @@
     "Frying Pan": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 8xMetal Parts"
+        "Recycles to:",
+        "8x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
@@ -708,7 +754,8 @@
     "Garlic Press": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 12xMetal Parts"
+        "Recycles to:",
+        "12x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "12xMetal Parts"
@@ -724,7 +771,9 @@
     "Headphones": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 6xRubber Parts2xSpeaker Component"
+        "Recycles to:",
+        "6x Rubber Parts",
+        "2x Speaker Component"
       ],
       "needed_for": null,
       "recycles_to": "6xRubber Parts2xSpeaker Component"
@@ -732,7 +781,8 @@
     "Heavy Gun Parts": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xSimple Gun Parts"
+        "Recycles to:",
+        "2x Simple Gun Parts"
       ],
       "needed_for": null,
       "recycles_to": "2xSimple Gun Parts"
@@ -749,7 +799,8 @@
     "Household Cleaner": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 13xChemicals"
+        "Recycles to:",
+        "13x Chemicals"
       ],
       "needed_for": null,
       "recycles_to": "13xChemicals"
@@ -765,7 +816,8 @@
     "Ice Cream Scooper": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 7xMetal Parts"
+        "Recycles to:",
+        "7x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "7xMetal Parts"
@@ -773,7 +825,8 @@
     "Impure ARC Coolant": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 13xChemicals"
+        "Recycles to:",
+        "13x Chemicals"
       ],
       "needed_for": null,
       "recycles_to": "13xChemicals"
@@ -789,7 +842,9 @@
     "Industrial Charger": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 5xMetal Parts1xVoltage Converter"
+        "Recycles to:",
+        "5x Metal Parts",
+        "1x Voltage Converter"
       ],
       "needed_for": null,
       "recycles_to": "5xMetal Parts1xVoltage Converter"
@@ -797,7 +852,9 @@
     "Industrial Magnet": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xMagnet4xMetal Parts"
+        "Recycles to:",
+        "2x Magnet",
+        "4x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "2xMagnet4xMetal Parts"
@@ -805,7 +862,9 @@
     "Ion Sputter": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 4xVoltage Converter1xExodus Modules"
+        "Recycles to:",
+        "4x Voltage Converter",
+        "1x Exodus Modules"
       ],
       "needed_for": null,
       "recycles_to": "4xVoltage Converter1xExodus Modules"
@@ -854,7 +913,8 @@
     "Light Gun Parts": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xSimple Gun Parts"
+        "Recycles to:",
+        "2x Simple Gun Parts"
       ],
       "needed_for": null,
       "recycles_to": "2xSimple Gun Parts"
@@ -862,7 +922,8 @@
     "Magnet": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xMetal Parts"
+        "Recycles to:",
+        "3x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "3xMetal Parts"
@@ -886,7 +947,9 @@
     "Matriarch Reactor": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xPower Rod1xMagnetic Accelerator"
+        "Recycles to:",
+        "1x Power Rod",
+        "1x Magnetic Accelerator"
       ],
       "needed_for": null,
       "recycles_to": "1xPower Rod1xMagnetic Accelerator"
@@ -902,7 +965,8 @@
     "Medium Gun Parts": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xSimple Gun Parts"
+        "Recycles to:",
+        "2x Simple Gun Parts"
       ],
       "needed_for": null,
       "recycles_to": "2xSimple Gun Parts"
@@ -910,7 +974,8 @@
     "Metal Brackets": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 8xMetal Parts"
+        "Recycles to:",
+        "8x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
@@ -927,7 +992,9 @@
     "Microscope": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xAdvanced Mechanical Components3xMagnet"
+        "Recycles to:",
+        "1x Advanced Mechanical Components",
+        "3x Magnet"
       ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Mechanical Components3xMagnet"
@@ -935,7 +1002,9 @@
     "Mini Centrifuge": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xAdvanced Mechanical Components2xCanister"
+        "Recycles to:",
+        "1x Advanced Mechanical Components",
+        "2x Canister"
       ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Mechanical Components2xCanister"
@@ -943,7 +1012,9 @@
     "Mod Components": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xMechanical Components1xSteel Spring"
+        "Recycles to:",
+        "1x Mechanical Components",
+        "1x Steel Spring"
       ],
       "needed_for": null,
       "recycles_to": "1xMechanical Components1xSteel Spring"
@@ -951,7 +1022,8 @@
     "Moss": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xAssorted Seeds"
+        "Recycles to:",
+        "3x Assorted Seeds"
       ],
       "needed_for": null,
       "recycles_to": "3xAssorted Seeds"
@@ -991,7 +1063,8 @@
     "Number Plate": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xMetal Parts"
+        "Recycles to:",
+        "3x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "3xMetal Parts"
@@ -999,7 +1072,8 @@
     "Oil": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 3xChemicals"
+        "Recycles to:",
+        "3x Chemicals"
       ],
       "needed_for": null,
       "recycles_to": "3xChemicals"
@@ -1047,7 +1121,9 @@
     "Polluted Air Filter": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 6xFabric2xOil"
+        "Recycles to:",
+        "6x Fabric",
+        "2x Oil"
       ],
       "needed_for": null,
       "recycles_to": "6xFabric2xOil"
@@ -1063,7 +1139,9 @@
     "Portable TV": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xBattery6xWires"
+        "Recycles to:",
+        "2x Battery",
+        "6x Wires"
       ],
       "needed_for": null,
       "recycles_to": "2xBattery6xWires"
@@ -1087,7 +1165,9 @@
     "Power Bank": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xBattery2xWires"
+        "Recycles to:",
+        "2x Battery",
+        "2x Wires"
       ],
       "needed_for": null,
       "recycles_to": "2xBattery2xWires"
@@ -1103,7 +1183,9 @@
     "Power Rod": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xAdvanced Electrical Components1xARC Circuitry"
+        "Recycles to:",
+        "1x Advanced Electrical Components",
+        "1x ARC Circuitry"
       ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Electrical Components1xARC Circuitry"
@@ -1119,7 +1201,9 @@
     "Processor": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xWires1xPlastic Parts"
+        "Recycles to:",
+        "1x Wires",
+        "1x Plastic Parts"
       ],
       "needed_for": null,
       "recycles_to": "1xWires1xPlastic Parts"
@@ -1127,7 +1211,9 @@
     "Projector": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xProcessor2xWires"
+        "Recycles to:",
+        "1x Processor",
+        "2x Wires"
       ],
       "needed_for": null,
       "recycles_to": "1xProcessor2xWires"
@@ -1135,7 +1221,9 @@
     "Queen Reactor": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xPower Rod1xMagnetic Accelerator"
+        "Recycles to:",
+        "1x Power Rod",
+        "1x Magnetic Accelerator"
       ],
       "needed_for": null,
       "recycles_to": "1xPower Rod1xMagnetic Accelerator"
@@ -1143,7 +1231,9 @@
     "Radio": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xSpeaker Component1xSensors"
+        "Recycles to:",
+        "1x Speaker Component",
+        "1x Sensors"
       ],
       "needed_for": null,
       "recycles_to": "1xSpeaker Component1xSensors"
@@ -1151,7 +1241,9 @@
     "Radio Relay": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xSpeaker Component2xSensors"
+        "Recycles to:",
+        "2x Speaker Component",
+        "2x Sensors"
       ],
       "needed_for": null,
       "recycles_to": "2xSpeaker Component2xSensors"
@@ -1175,7 +1267,9 @@
     "Remote Control": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xPlastic Parts1xSensors"
+        "Recycles to:",
+        "2x Plastic Parts",
+        "1x Sensors"
       ],
       "needed_for": null,
       "recycles_to": "2xPlastic Parts1xSensors"
@@ -1191,7 +1285,9 @@
     "Ripped Safety Vest": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xMagnet1xDurable Cloth"
+        "Recycles to:",
+        "1x Magnet",
+        "1x Durable Cloth"
       ],
       "needed_for": null,
       "recycles_to": "1xMagnet1xDurable Cloth"
@@ -1199,7 +1295,9 @@
     "Rocket Thruster": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xSynthesized Fuel6xMetal Parts"
+        "Recycles to:",
+        "2x Synthesized Fuel",
+        "6x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "2xSynthesized Fuel6xMetal Parts"
@@ -1215,7 +1313,8 @@
     "Roots": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xAssorted Seeds"
+        "Recycles to:",
+        "1x Assorted Seeds"
       ],
       "needed_for": null,
       "recycles_to": "1xAssorted Seeds"
@@ -1223,7 +1322,8 @@
     "Rope": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 5xFabric"
+        "Recycles to:",
+        "5x Fabric"
       ],
       "needed_for": null,
       "recycles_to": "5xFabric"
@@ -1239,7 +1339,9 @@
     "Rotary Encoder": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xElectrical Components2xProcessor"
+        "Recycles to:",
+        "2x Electrical Components",
+        "2x Processor"
       ],
       "needed_for": null,
       "recycles_to": "2xElectrical Components2xProcessor"
@@ -1255,7 +1357,8 @@
     "Rubber Pad": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 18xRubber Parts"
+        "Recycles to:",
+        "18x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "18xRubber Parts"
@@ -1272,7 +1375,9 @@
     "Ruined Accordion": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 18xRubber Parts3xSteel Spring"
+        "Recycles to:",
+        "18x Rubber Parts",
+        "3x Steel Spring"
       ],
       "needed_for": null,
       "recycles_to": "18xRubber Parts3xSteel Spring"
@@ -1280,7 +1385,9 @@
     "Ruined Augment": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xPlastic Parts2xRubber Parts"
+        "Recycles to:",
+        "2x Plastic Parts",
+        "2x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "2xPlastic Parts2xRubber Parts"
@@ -1288,7 +1395,9 @@
     "Ruined Baton": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 6xMetal Parts3xRubber Parts"
+        "Recycles to:",
+        "6x Metal Parts",
+        "3x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "6xMetal Parts3xRubber Parts"
@@ -1296,7 +1405,8 @@
     "Ruined Handcuffs": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 8xMetal Parts"
+        "Recycles to:",
+        "8x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
@@ -1304,7 +1414,8 @@
     "Ruined Parachute": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 10xFabric"
+        "Recycles to:",
+        "10x Fabric"
       ],
       "needed_for": null,
       "recycles_to": "10xFabric"
@@ -1312,7 +1423,9 @@
     "Ruined Tactical Vest": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 5xFabric1xMagnet"
+        "Recycles to:",
+        "5x Fabric",
+        "1x Magnet"
       ],
       "needed_for": null,
       "recycles_to": "5xFabric1xMagnet"
@@ -1320,7 +1433,9 @@
     "Ruined Riot Shield": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 10xPlastic Parts6xRubber Parts"
+        "Recycles to:",
+        "10x Plastic Parts",
+        "6x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "10xPlastic Parts6xRubber Parts"
@@ -1328,7 +1443,8 @@
     "Rusted Bolts": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 8xMetal Parts"
+        "Recycles to:",
+        "8x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
@@ -1360,7 +1476,8 @@
     "Rusty ARC Steel": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 8xMetal Parts"
+        "Recycles to:",
+        "8x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
@@ -1368,7 +1485,9 @@
     "Sample Cleaner": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xElectrical Components14xAssorted Seeds"
+        "Recycles to:",
+        "2x Electrical Components",
+        "14x Assorted Seeds"
       ],
       "needed_for": null,
       "recycles_to": "2xElectrical Components14xAssorted Seeds"
@@ -1392,7 +1511,9 @@
     "Signal Amplifier": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xElectrical Components2xVoltage Converter"
+        "Recycles to:",
+        "2x Electrical Components",
+        "2x Voltage Converter"
       ],
       "needed_for": null,
       "recycles_to": "2xElectrical Components2xVoltage Converter"
@@ -1408,7 +1529,8 @@
     "Simple Gun Parts": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xMetal Parts"
+        "Recycles to:",
+        "2x Metal Parts"
       ],
       "needed_for": null,
       "recycles_to": "2xMetal Parts"
@@ -1432,7 +1554,7 @@
     "Spaceport Control Tower Key": {
       "action": "KEEP",
       "reason": [
-        "Quest"
+        "1x Quest"
       ],
       "needed_for": "1x Quest",
       "recycles_to": "Cannot be recycled"
@@ -1440,7 +1562,7 @@
     "Spaceport Trench Tower Key": {
       "action": "KEEP",
       "reason": [
-        "Quest"
+        "1x Quest"
       ],
       "needed_for": "1x Quest",
       "recycles_to": "Cannot be recycled"
@@ -1456,7 +1578,9 @@
     "Speaker Component": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xPlastic Parts2xRubber Parts"
+        "Recycles to:",
+        "2x Plastic Parts",
+        "2x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "2xPlastic Parts2xRubber Parts"
@@ -1464,7 +1588,9 @@
     "Spectrometer": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xAdvanced Electrical Components1xSensors"
+        "Recycles to:",
+        "1x Advanced Electrical Components",
+        "1x Sensors"
       ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Electrical Components1xSensors"
@@ -1472,7 +1598,9 @@
     "Spectrum Analyzer": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xSensors1xExodus Modules"
+        "Recycles to:",
+        "1x Sensors",
+        "1x Exodus Modules"
       ],
       "needed_for": null,
       "recycles_to": "1xSensors1xExodus Modules"
@@ -1480,7 +1608,9 @@
     "Spring Cushion": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xDurable Cloth2xSteel Spring"
+        "Recycles to:",
+        "2x Durable Cloth",
+        "2x Steel Spring"
       ],
       "needed_for": null,
       "recycles_to": "2xDurable Cloth2xSteel Spring"
@@ -1488,7 +1618,9 @@
     "Spotter Relay": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xElectrical Components1xARC Alloy"
+        "Recycles to:",
+        "2x Electrical Components",
+        "1x ARC Alloy"
       ],
       "needed_for": null,
       "recycles_to": "2xElectrical Components1xARC Alloy"
@@ -1569,7 +1701,8 @@
     "Tattered ARC Lining": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 12xFabric"
+        "Recycles to:",
+        "12x Fabric"
       ],
       "needed_for": null,
       "recycles_to": "12xFabric"
@@ -1577,7 +1710,8 @@
     "Tattered Clothes": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 11xFabric"
+        "Recycles to:",
+        "11x Fabric"
       ],
       "needed_for": null,
       "recycles_to": "11xFabric"
@@ -1585,7 +1719,9 @@
     "Telemetry Transceiver": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xAdvanced Electrical Components1xProcessor"
+        "Recycles to:",
+        "1x Advanced Electrical Components",
+        "1x Processor"
       ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Electrical Components1xProcessor"
@@ -1593,7 +1729,9 @@
     "Thermostat": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 6xRubber Parts2xSensors"
+        "Recycles to:",
+        "6x Rubber Parts",
+        "2x Sensors"
       ],
       "needed_for": null,
       "recycles_to": "6xRubber Parts2xSensors"
@@ -1625,7 +1763,8 @@
     "Torn Blanket": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 12xFabric"
+        "Recycles to:",
+        "12x Fabric"
       ],
       "needed_for": null,
       "recycles_to": "12xFabric"
@@ -1633,7 +1772,9 @@
     "Turbo Pump": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xMechanical Components3xOil"
+        "Recycles to:",
+        "1x Mechanical Components",
+        "3x Oil"
       ],
       "needed_for": null,
       "recycles_to": "1xMechanical Components3xOil"
@@ -1641,7 +1782,9 @@
     "Unusable Weapon": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 4xMetal Parts5xSimple Gun Parts"
+        "Recycles to:",
+        "4x Metal Parts",
+        "5x Simple Gun Parts"
       ],
       "needed_for": null,
       "recycles_to": "4xMetal Parts5xSimple Gun Parts"
@@ -1673,7 +1816,9 @@
     "Voltage Converter": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 1xWires1xRubber Parts"
+        "Recycles to:",
+        "1x Wires",
+        "1x Rubber Parts"
       ],
       "needed_for": null,
       "recycles_to": "1xWires1xRubber Parts"
@@ -1689,7 +1834,9 @@
     "Water Filter": {
       "action": "RECYCLE",
       "reason": [
-        "Recycles to: 2xRubber Parts3xCanister"
+        "Recycles to:",
+        "2x Rubber Parts",
+        "3x Canister"
       ],
       "needed_for": null,
       "recycles_to": "2xRubber Parts3xCanister"
@@ -1705,8 +1852,7 @@
     "Wires": {
       "action": "KEEP",
       "reason": [
-        "30x Expedition",
-        "Quest"
+        "30x Expedition"
       ],
       "needed_for": "30xExpedition3x Quest",
       "recycles_to": "2xRubber Parts"
