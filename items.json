@@ -1,1277 +1,1713 @@
 {
-  "last_updated": "2025-11-30T23:07:26.208137",
+  "last_updated": "2025-12-01T00:43:33.132385",
   "version": "1.0",
   "item_count": 212,
   "items": {
     "Advanced ARC Powercell": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xARC Powercell",
+      "reason": [
+        "Recycles to: 2xARC Powercell"
+      ],
       "needed_for": null,
       "recycles_to": "2xARC Powercell"
     },
     "Advanced Electrical Components": {
       "action": "KEEP",
-      "reason": "5xWorkshop5xExpedition",
+      "reason": [
+        "5x Workshop",
+        "5x Expedition"
+      ],
       "needed_for": "5xWorkshop5xExpedition",
       "recycles_to": "1xElectrical Components1xWires"
     },
     "Advanced Mechanical Components": {
       "action": "KEEP",
-      "reason": "5xWorkshop",
+      "reason": [
+        "5x Workshop"
+      ],
       "needed_for": "5xWorkshop",
       "recycles_to": "1xMechanical Components1xWires"
     },
     "Agave": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xAssorted Seeds",
+      "reason": [
+        "Recycles to: 3xAssorted Seeds"
+      ],
       "needed_for": null,
       "recycles_to": "3xAssorted Seeds"
     },
     "Air Freshener": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Alarm Clock": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xProcessor6xPlastic Parts",
+      "reason": [
+        "Recycles to: 1xProcessor6xPlastic Parts"
+      ],
       "needed_for": null,
       "recycles_to": "1xProcessor6xPlastic Parts"
     },
     "Antiseptic": {
       "action": "KEEP",
-      "reason": "8xWorkshop2xQuest",
+      "reason": [
+        "8x Workshop",
+        "2x Quest"
+      ],
       "needed_for": "8xWorkshop2xQuest",
       "recycles_to": "10xChemicals"
     },
     "Apricot": {
       "action": "KEEP",
-      "reason": "15xScrappy",
+      "reason": [
+        "15x Scrappy"
+      ],
       "needed_for": "15xScrappy",
       "recycles_to": "3xAssorted Seeds"
     },
     "ARC Alloy": {
       "action": "KEEP",
-      "reason": "18xWorkshop80xExpedition",
+      "reason": [
+        "18x Workshop",
+        "80x Expedition"
+      ],
       "needed_for": "18xWorkshop80xExpedition",
       "recycles_to": "2xMetal Parts"
     },
     "ARC Circuitry": {
       "action": "KEEP",
-      "reason": "10xWorkshop",
+      "reason": [
+        "10x Workshop"
+      ],
       "needed_for": "10xWorkshop",
       "recycles_to": "2xARC Alloy"
     },
     "ARC Coolant": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 16xChemicals",
+      "reason": [
+        "Recycles to: 16xChemicals"
+      ],
       "needed_for": null,
       "recycles_to": "16xChemicals"
     },
     "ARC Flex Rubber": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 16xRubber Parts",
+      "reason": [
+        "Recycles to: 16xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "16xRubber Parts"
     },
     "ARC Motion Core": {
       "action": "KEEP",
-      "reason": "5xWorkshop",
+      "reason": [
+        "5x Workshop"
+      ],
       "needed_for": "5xWorkshop",
       "recycles_to": "2xARC Alloy"
     },
     "ARC Performance Steel": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 12xMetal Parts",
+      "reason": [
+        "Recycles to: 12xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "12xMetal Parts"
     },
     "ARC Powercell": {
       "action": "KEEP",
-      "reason": "5xWorkshop",
+      "reason": [
+        "5x Workshop"
+      ],
       "needed_for": "5xWorkshop",
       "recycles_to": "Cannot be recycled"
     },
     "ARC Synthetic Resin": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 14xPlastic Parts",
+      "reason": [
+        "Recycles to: 14xPlastic Parts"
+      ],
       "needed_for": null,
       "recycles_to": "14xPlastic Parts"
     },
     "ARC Thermo Lining": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 16xFabric",
+      "reason": [
+        "Recycles to: 16xFabric"
+      ],
       "needed_for": null,
       "recycles_to": "16xFabric"
     },
     "Assorted Seeds": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": "Currency for Celeste",
       "recycles_to": "Cannot be recycled"
     },
     "Bastion Cell": {
       "action": "KEEP",
-      "reason": "6xWorkshop",
+      "reason": [
+        "6x Workshop"
+      ],
       "needed_for": "6xWorkshop",
       "recycles_to": "2xARC Motion Core2xAdvanced Mechanical Components"
     },
     "Battery": {
       "action": "KEEP",
-      "reason": "30xExpedition",
+      "reason": [
+        "30x Expedition"
+      ],
       "needed_for": "30xExpedition",
       "recycles_to": "2xMetal Parts"
     },
     "Bicycle Pump": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 4xCanister10xMetal Parts",
+      "reason": [
+        "Recycles to: 4xCanister10xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "4xCanister10xMetal Parts"
     },
     "Bloated Tuna Can": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Blue Gate Communication Tower Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Blue Gate Confiscation Room Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Blue Gate Cellar Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Blue Gate Village Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Bombardier Cell": {
       "action": "KEEP",
-      "reason": "6xWorkshop",
+      "reason": [
+        "6x Workshop"
+      ],
       "needed_for": "6xWorkshop",
       "recycles_to": "2xAdvanced Mechanical Components2xARC Alloy"
     },
     "Breathtaking Snow Globe": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Broken Flashlight": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xBattery6xMetal Parts",
+      "reason": [
+        "Recycles to: 2xBattery6xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "2xBattery6xMetal Parts"
     },
     "Broken Guidance System": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 4xProcessor",
+      "reason": [
+        "Recycles to: 4xProcessor"
+      ],
       "needed_for": null,
       "recycles_to": "4xProcessor"
     },
     "Broken Handheld Radio": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xSensors3xWires",
+      "reason": [
+        "Recycles to: 3xSensors3xWires"
+      ],
       "needed_for": null,
       "recycles_to": "3xSensors3xWires"
     },
     "Broken Taser": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xBattery2xWires",
+      "reason": [
+        "Recycles to: 2xBattery2xWires"
+      ],
       "needed_for": null,
       "recycles_to": "2xBattery2xWires"
     },
     "Buried City Hospital Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Buried City JKV Employee Access Card": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Buried City Residential Mastery Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Buried City Town Hall Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Burned ARC Circuitry": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xARC Alloy",
+      "reason": [
+        "Recycles to: 2xARC Alloy"
+      ],
       "needed_for": null,
       "recycles_to": "2xARC Alloy"
     },
     "Camera Lens": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 8xPlastic Parts",
+      "reason": [
+        "Recycles to: 8xPlastic Parts"
+      ],
       "needed_for": null,
       "recycles_to": "8xPlastic Parts"
     },
     "Candle Holder": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 8xMetal Parts",
+      "reason": [
+        "Recycles to: 8xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
     },
     "Canister": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xPlastic Parts",
+      "reason": [
+        "Recycles to: 3xPlastic Parts"
+      ],
       "needed_for": null,
       "recycles_to": "3xPlastic Parts"
     },
     "Cat Bed": {
       "action": "KEEP",
-      "reason": "1xScrappy",
+      "reason": [
+        "1x Scrappy"
+      ],
       "needed_for": "1xScrappy",
       "recycles_to": "Cannot be recycled"
     },
     "Chemicals": {
       "action": "KEEP",
-      "reason": "50xWorkshop",
+      "reason": [
+        "50x Workshop"
+      ],
       "needed_for": "50xWorkshop",
       "recycles_to": "Cannot be recycled"
     },
     "Coffee Pot": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Complex Gun Parts": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xSimple Gun Parts",
+      "reason": [
+        "Recycles to: 3xSimple Gun Parts"
+      ],
       "needed_for": null,
       "recycles_to": "3xSimple Gun Parts"
     },
     "Coolant": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 5xChemicals2xOil",
+      "reason": [
+        "Recycles to: 5xChemicals2xOil"
+      ],
       "needed_for": null,
       "recycles_to": "5xChemicals2xOil"
     },
     "Cooling Coil": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 6xChemicals2xSteel Spring",
+      "reason": [
+        "Recycles to: 6xChemicals2xSteel Spring"
+      ],
       "needed_for": null,
       "recycles_to": "6xChemicals2xSteel Spring"
     },
     "Cooling Fan": {
       "action": "KEEP",
-      "reason": "5xExpedition",
+      "reason": [
+        "5x Expedition"
+      ],
       "needed_for": "5xExpedition",
       "recycles_to": "14xPlastic Parts4xBattery"
     },
     "Cracked Bioscanner": {
       "action": "KEEP",
-      "reason": "2xWorkshop",
+      "reason": [
+        "2x Workshop"
+      ],
       "needed_for": "2xWorkshop",
       "recycles_to": "3xRubber Parts5xBattery"
     },
     "Crude Explosives": {
       "action": "KEEP",
-      "reason": "5xWorkshop",
+      "reason": [
+        "5x Workshop"
+      ],
       "needed_for": "5xWorkshop",
       "recycles_to": "3xChemicals"
     },
     "Crumpled Plastic Bottle": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xPlastic Parts",
+      "reason": [
+        "Recycles to: 3xPlastic Parts"
+      ],
       "needed_for": null,
       "recycles_to": "3xPlastic Parts"
     },
     "Dam Control Tower Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Dam Staff Room Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Dam Surveillance Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Dam Testing Annex Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Dam Utility Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Damaged ARC Motion Core": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xARC Alloy",
+      "reason": [
+        "Recycles to: 2xARC Alloy"
+      ],
       "needed_for": null,
       "recycles_to": "2xARC Alloy"
     },
     "Damaged ARC Powercell": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xARC Alloy",
+      "reason": [
+        "Recycles to: 1xARC Alloy"
+      ],
       "needed_for": null,
       "recycles_to": "1xARC Alloy"
     },
     "Damaged Fireball Burner": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xARC Alloy",
+      "reason": [
+        "Recycles to: 1xARC Alloy"
+      ],
       "needed_for": null,
       "recycles_to": "1xARC Alloy"
     },
     "Damaged Heat Sink": {
       "action": "KEEP",
-      "reason": "2xWorkshop",
+      "reason": [
+        "2x Workshop"
+      ],
       "needed_for": "2xWorkshop",
       "recycles_to": "6xMetal Parts2xWires"
     },
     "Damaged Hornet Driver": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xARC Alloy",
+      "reason": [
+        "Recycles to: 2xARC Alloy"
+      ],
       "needed_for": null,
       "recycles_to": "2xARC Alloy"
     },
     "Damaged Rocketeer Driver": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xARC Alloy",
+      "reason": [
+        "Recycles to: 3xARC Alloy"
+      ],
       "needed_for": null,
       "recycles_to": "3xARC Alloy"
     },
     "Damaged Snitch Scanner": {
       "action": "RECYCLE",
-      "reason": "Recycles to: -",
+      "reason": [
+        "Recycles to: -"
+      ],
       "needed_for": null,
       "recycles_to": "-"
     },
     "Damaged Tick Pod": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xARC Alloy",
+      "reason": [
+        "Recycles to: 1xARC Alloy"
+      ],
       "needed_for": null,
       "recycles_to": "1xARC Alloy"
     },
     "Damaged Wasp Driver": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xARC Alloy",
+      "reason": [
+        "Recycles to: 1xARC Alloy"
+      ],
       "needed_for": null,
       "recycles_to": "1xARC Alloy"
     },
     "Dart Board": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Deflated Football": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 15xRubber Parts",
+      "reason": [
+        "Recycles to: 15xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "15xRubber Parts"
     },
     "Degraded ARC Rubber": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 11xRubber Parts",
+      "reason": [
+        "Recycles to: 11xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "11xRubber Parts"
     },
     "Diving Goggles": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 12xRubber Parts",
+      "reason": [
+        "Recycles to: 12xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "12xRubber Parts"
     },
     "Dog Collar": {
       "action": "KEEP",
-      "reason": "1xScrappy",
+      "reason": [
+        "1x Scrappy"
+      ],
       "needed_for": "1xScrappy",
       "recycles_to": "8xFabric1xMetal Parts"
     },
     "Dried-Out ARC Resin": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 9xPlastic Parts",
+      "reason": [
+        "Recycles to: 9xPlastic Parts"
+      ],
       "needed_for": null,
       "recycles_to": "9xPlastic Parts"
     },
     "Duct Tape": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xFabric",
+      "reason": [
+        "Recycles to: 3xFabric"
+      ],
       "needed_for": null,
       "recycles_to": "3xFabric"
     },
     "Durable Cloth": {
       "action": "KEEP",
-      "reason": "5xWorkshop35xExpedition1xQuest",
+      "reason": [
+        "5x Workshop",
+        "35x Expedition",
+        "1x Quest"
+      ],
       "needed_for": "5xWorkshop35xExpedition1xQuest",
       "recycles_to": "6xFabric"
     },
     "Electrical Components": {
       "action": "KEEP",
-      "reason": "10xWorkshop30xExpedition",
+      "reason": [
+        "10x Workshop",
+        "30x Expedition"
+      ],
       "needed_for": "10xWorkshop30xExpedition",
       "recycles_to": "3xPlastic Parts3xRubber Parts"
     },
     "Empty Wine Bottle": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Exodus Modules": {
       "action": "KEEP",
-      "reason": "1xExpedition",
+      "reason": [
+        "1x Expedition"
+      ],
       "needed_for": "1xExpedition",
       "recycles_to": "2xMagnet1xMechanical Components"
     },
     "Expired Pasta": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Expired Respirator": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 8xRubber Parts4xFabric",
+      "reason": [
+        "Recycles to: 8xRubber Parts4xFabric"
+      ],
       "needed_for": null,
       "recycles_to": "8xRubber Parts4xFabric"
     },
     "Explosive Compound": {
       "action": "KEEP",
-      "reason": "5xWorkshop",
+      "reason": [
+        "5x Workshop"
+      ],
       "needed_for": "5xWorkshop",
       "recycles_to": "2xCrude Explosives"
     },
     "Fabric": {
       "action": "KEEP",
-      "reason": "80xWorkshop",
+      "reason": [
+        "80x Workshop"
+      ],
       "needed_for": "80xWorkshop",
       "recycles_to": "Cannot be recycled"
     },
     "Faded Photograph": {
       "action": "KEEP",
-      "reason": "2x Quest",
+      "reason": [
+        "Quest"
+      ],
       "needed_for": "2x Quest",
       "recycles_to": "Cannot be recycled"
     },
     "Fertilizer": {
       "action": "KEEP",
-      "reason": "1xQuest",
+      "reason": [
+        "1x Quest"
+      ],
       "needed_for": "1xQuest",
       "recycles_to": "2xAssorted Seeds"
     },
     "Film Reel": {
       "action": "KEEP",
-      "reason": "1x Quest",
+      "reason": [
+        "Quest"
+      ],
       "needed_for": "1x Quest",
       "recycles_to": "Cannot be recycled"
     },
     "Fine Wristwatch": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Fireball Burner": {
       "action": "KEEP",
-      "reason": "8xWorkshop",
+      "reason": [
+        "8x Workshop"
+      ],
       "needed_for": "8xWorkshop",
       "recycles_to": "1xARC Alloy1xChemicals"
     },
     "Frequency Modulation Box": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xAdvanced Electrical Components1xSpeaker Component",
+      "reason": [
+        "Recycles to: 1xAdvanced Electrical Components1xSpeaker Component"
+      ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Electrical Components1xSpeaker Component"
     },
     "Fried Motherboard": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "5xPlastic Parts1xElectrical Components"
     },
     "Frying Pan": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 8xMetal Parts",
+      "reason": [
+        "Recycles to: 8xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
     },
     "Garlic Press": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 12xMetal Parts",
+      "reason": [
+        "Recycles to: 12xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "12xMetal Parts"
     },
     "Great Mullein": {
       "action": "KEEP",
-      "reason": "1xQuest",
+      "reason": [
+        "1x Quest"
+      ],
       "needed_for": "1xQuest",
       "recycles_to": "4xAssorted Seeds"
     },
     "Headphones": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 6xRubber Parts2xSpeaker Component",
+      "reason": [
+        "Recycles to: 6xRubber Parts2xSpeaker Component"
+      ],
       "needed_for": null,
       "recycles_to": "6xRubber Parts2xSpeaker Component"
     },
     "Heavy Gun Parts": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xSimple Gun Parts",
+      "reason": [
+        "Recycles to: 2xSimple Gun Parts"
+      ],
       "needed_for": null,
       "recycles_to": "2xSimple Gun Parts"
     },
     "Hornet Driver": {
       "action": "KEEP",
-      "reason": "5xWorkshop2xQuest",
+      "reason": [
+        "5x Workshop",
+        "2x Quest"
+      ],
       "needed_for": "5xWorkshop2xQuest",
       "recycles_to": "2xARC Alloy2xElectrical Components"
     },
     "Household Cleaner": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 13xChemicals",
+      "reason": [
+        "Recycles to: 13xChemicals"
+      ],
       "needed_for": null,
       "recycles_to": "13xChemicals"
     },
     "Humidifier": {
       "action": "KEEP",
-      "reason": "5xExpedition",
+      "reason": [
+        "5x Expedition"
+      ],
       "needed_for": "5xExpedition",
       "recycles_to": "2xCanister2xWires"
     },
     "Ice Cream Scooper": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 7xMetal Parts",
+      "reason": [
+        "Recycles to: 7xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "7xMetal Parts"
     },
     "Impure ARC Coolant": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 13xChemicals",
+      "reason": [
+        "Recycles to: 13xChemicals"
+      ],
       "needed_for": null,
       "recycles_to": "13xChemicals"
     },
     "Industrial Battery": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "7xChemicals2xBattery"
     },
     "Industrial Charger": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 5xMetal Parts1xVoltage Converter",
+      "reason": [
+        "Recycles to: 5xMetal Parts1xVoltage Converter"
+      ],
       "needed_for": null,
       "recycles_to": "5xMetal Parts1xVoltage Converter"
     },
     "Industrial Magnet": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xMagnet4xMetal Parts",
+      "reason": [
+        "Recycles to: 2xMagnet4xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "2xMagnet4xMetal Parts"
     },
     "Ion Sputter": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 4xVoltage Converter1xExodus Modules",
+      "reason": [
+        "Recycles to: 4xVoltage Converter1xExodus Modules"
+      ],
       "needed_for": null,
       "recycles_to": "4xVoltage Converter1xExodus Modules"
     },
     "Laboratory Reagents": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "2xChemicals2xCrude Explosives"
     },
     "Lance's Mixtape (5th Edition)": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Lemon": {
       "action": "KEEP",
-      "reason": "3xScrappy",
+      "reason": [
+        "3x Scrappy"
+      ],
       "needed_for": "3xScrappy",
       "recycles_to": "3xAssorted Seeds"
     },
     "Leaper Pulse Unit": {
       "action": "KEEP",
-      "reason": "3xExpedition4xWorkshop",
+      "reason": [
+        "3x Expedition",
+        "4x Workshop"
+      ],
       "needed_for": "3xExpedition4xWorkshop",
       "recycles_to": "2xAdvanced Mechanical Components3xARC Alloy"
     },
     "Light Bulb": {
       "action": "KEEP",
-      "reason": "5xExpedition",
+      "reason": [
+        "5x Expedition"
+      ],
       "needed_for": "5xExpedition",
       "recycles_to": "Cannot be recycled"
     },
     "Light Gun Parts": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xSimple Gun Parts",
+      "reason": [
+        "Recycles to: 2xSimple Gun Parts"
+      ],
       "needed_for": null,
       "recycles_to": "2xSimple Gun Parts"
     },
     "Magnet": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xMetal Parts",
+      "reason": [
+        "Recycles to: 3xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "3xMetal Parts"
     },
     "Magnetic Accelerator": {
       "action": "KEEP",
-      "reason": "3xExpedition",
+      "reason": [
+        "3x Expedition"
+      ],
       "needed_for": "3xExpedition",
       "recycles_to": "1xAdvanced Mechanical Components1xARC Motion Core"
     },
     "Magnetron": {
       "action": "KEEP",
-      "reason": "1xQuest",
+      "reason": [
+        "1x Quest"
+      ],
       "needed_for": "1xQuest",
       "recycles_to": "1xMagnetic Accelerator1xSteel Spring"
     },
     "Matriarch Reactor": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xPower Rod1xMagnetic Accelerator",
+      "reason": [
+        "Recycles to: 1xPower Rod1xMagnetic Accelerator"
+      ],
       "needed_for": null,
       "recycles_to": "1xPower Rod1xMagnetic Accelerator"
     },
     "Mechanical Components": {
       "action": "KEEP",
-      "reason": "5xWorkshop",
+      "reason": [
+        "5x Workshop"
+      ],
       "needed_for": "5xWorkshop",
       "recycles_to": "3xMetal Parts2xRubber Parts"
     },
     "Medium Gun Parts": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xSimple Gun Parts",
+      "reason": [
+        "Recycles to: 2xSimple Gun Parts"
+      ],
       "needed_for": null,
       "recycles_to": "2xSimple Gun Parts"
     },
     "Metal Brackets": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 8xMetal Parts",
+      "reason": [
+        "Recycles to: 8xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
     },
     "Metal Parts": {
       "action": "KEEP",
-      "reason": "80xWorkshop150xExpedition",
+      "reason": [
+        "80x Workshop",
+        "150x Expedition"
+      ],
       "needed_for": "80xWorkshop150xExpedition",
       "recycles_to": "Cannot be recycled"
     },
     "Microscope": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xAdvanced Mechanical Components3xMagnet",
+      "reason": [
+        "Recycles to: 1xAdvanced Mechanical Components3xMagnet"
+      ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Mechanical Components3xMagnet"
     },
     "Mini Centrifuge": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xAdvanced Mechanical Components2xCanister",
+      "reason": [
+        "Recycles to: 1xAdvanced Mechanical Components2xCanister"
+      ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Mechanical Components2xCanister"
     },
     "Mod Components": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xMechanical Components1xSteel Spring",
+      "reason": [
+        "Recycles to: 1xMechanical Components1xSteel Spring"
+      ],
       "needed_for": null,
       "recycles_to": "1xMechanical Components1xSteel Spring"
     },
     "Moss": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xAssorted Seeds",
+      "reason": [
+        "Recycles to: 3xAssorted Seeds"
+      ],
       "needed_for": null,
       "recycles_to": "3xAssorted Seeds"
     },
     "Motor": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "2xOil2xMechanical Components"
     },
     "Mushroom": {
       "action": "KEEP",
-      "reason": "12xScrappy",
+      "reason": [
+        "12x Scrappy"
+      ],
       "needed_for": "12xScrappy",
       "recycles_to": "Cannot be recycled"
     },
     "Music Album": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Music Box": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Number Plate": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xMetal Parts",
+      "reason": [
+        "Recycles to: 3xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "3xMetal Parts"
     },
     "Oil": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 3xChemicals",
+      "reason": [
+        "Recycles to: 3xChemicals"
+      ],
       "needed_for": null,
       "recycles_to": "3xChemicals"
     },
     "Olives": {
       "action": "KEEP",
-      "reason": "6xScrappy",
+      "reason": [
+        "6x Scrappy"
+      ],
       "needed_for": "6xScrappy",
       "recycles_to": "2xAssorted Seeds"
     },
     "Painted Box": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Patrol Car Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Plastic Parts": {
       "action": "KEEP",
-      "reason": "75xWorkshop",
+      "reason": [
+        "75x Workshop"
+      ],
       "needed_for": "75xWorkshop",
       "recycles_to": "Cannot be recycled"
     },
     "Playing Cards": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Polluted Air Filter": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 6xFabric2xOil",
+      "reason": [
+        "Recycles to: 6xFabric2xOil"
+      ],
       "needed_for": null,
       "recycles_to": "6xFabric2xOil"
     },
     "Pop Trigger": {
       "action": "KEEP",
-      "reason": "5xWorkshop",
+      "reason": [
+        "5x Workshop"
+      ],
       "needed_for": "5xWorkshop",
       "recycles_to": "1xCrude Explosives1xARC Alloy"
     },
     "Portable TV": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xBattery6xWires",
+      "reason": [
+        "Recycles to: 2xBattery6xWires"
+      ],
       "needed_for": null,
       "recycles_to": "2xBattery6xWires"
     },
     "Poster of Natural Wonders": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Pottery": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Power Bank": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xBattery2xWires",
+      "reason": [
+        "Recycles to: 2xBattery2xWires"
+      ],
       "needed_for": null,
       "recycles_to": "2xBattery2xWires"
     },
     "Power Cable": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "4xWires"
     },
     "Power Rod": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xAdvanced Electrical Components1xARC Circuitry",
+      "reason": [
+        "Recycles to: 1xAdvanced Electrical Components1xARC Circuitry"
+      ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Electrical Components1xARC Circuitry"
     },
     "Prickly Pear": {
       "action": "KEEP",
-      "reason": "6xScrappy",
+      "reason": [
+        "6x Scrappy"
+      ],
       "needed_for": "6xScrappy",
       "recycles_to": "3xAssorted Seeds"
     },
     "Processor": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xWires1xPlastic Parts",
+      "reason": [
+        "Recycles to: 1xWires1xPlastic Parts"
+      ],
       "needed_for": null,
       "recycles_to": "1xWires1xPlastic Parts"
     },
     "Projector": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xProcessor2xWires",
+      "reason": [
+        "Recycles to: 1xProcessor2xWires"
+      ],
       "needed_for": null,
       "recycles_to": "1xProcessor2xWires"
     },
     "Queen Reactor": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xPower Rod1xMagnetic Accelerator",
+      "reason": [
+        "Recycles to: 1xPower Rod1xMagnetic Accelerator"
+      ],
       "needed_for": null,
       "recycles_to": "1xPower Rod1xMagnetic Accelerator"
     },
     "Radio": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xSpeaker Component1xSensors",
+      "reason": [
+        "Recycles to: 1xSpeaker Component1xSensors"
+      ],
       "needed_for": null,
       "recycles_to": "1xSpeaker Component1xSensors"
     },
     "Radio Relay": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xSpeaker Component2xSensors",
+      "reason": [
+        "Recycles to: 2xSpeaker Component2xSensors"
+      ],
       "needed_for": null,
       "recycles_to": "2xSpeaker Component2xSensors"
     },
     "Raider Hatch Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Red Coral Jewelry": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Remote Control": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xPlastic Parts1xSensors",
+      "reason": [
+        "Recycles to: 2xPlastic Parts1xSensors"
+      ],
       "needed_for": null,
       "recycles_to": "2xPlastic Parts1xSensors"
     },
     "Resin": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Ripped Safety Vest": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xMagnet1xDurable Cloth",
+      "reason": [
+        "Recycles to: 1xMagnet1xDurable Cloth"
+      ],
       "needed_for": null,
       "recycles_to": "1xMagnet1xDurable Cloth"
     },
     "Rocket Thruster": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xSynthesized Fuel6xMetal Parts",
+      "reason": [
+        "Recycles to: 2xSynthesized Fuel6xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "2xSynthesized Fuel6xMetal Parts"
     },
     "Rocketeer Driver": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "2xAdvanced Electrical Components3xARC Alloy"
     },
     "Roots": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xAssorted Seeds",
+      "reason": [
+        "Recycles to: 1xAssorted Seeds"
+      ],
       "needed_for": null,
       "recycles_to": "1xAssorted Seeds"
     },
     "Rope": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 5xFabric",
+      "reason": [
+        "Recycles to: 5xFabric"
+      ],
       "needed_for": null,
       "recycles_to": "5xFabric"
     },
     "Rosary": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Rotary Encoder": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xElectrical Components2xProcessor",
+      "reason": [
+        "Recycles to: 2xElectrical Components2xProcessor"
+      ],
       "needed_for": null,
       "recycles_to": "2xElectrical Components2xProcessor"
     },
     "Rubber Duck": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Rubber Pad": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 18xRubber Parts",
+      "reason": [
+        "Recycles to: 18xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "18xRubber Parts"
     },
     "Rubber Parts": {
       "action": "KEEP",
-      "reason": "30xWorkshop200xExpedition",
+      "reason": [
+        "30x Workshop",
+        "200x Expedition"
+      ],
       "needed_for": "30xWorkshop200xExpedition",
       "recycles_to": "Cannot be recycled"
     },
     "Ruined Accordion": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 18xRubber Parts3xSteel Spring",
+      "reason": [
+        "Recycles to: 18xRubber Parts3xSteel Spring"
+      ],
       "needed_for": null,
       "recycles_to": "18xRubber Parts3xSteel Spring"
     },
     "Ruined Augment": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xPlastic Parts2xRubber Parts",
+      "reason": [
+        "Recycles to: 2xPlastic Parts2xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "2xPlastic Parts2xRubber Parts"
     },
     "Ruined Baton": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 6xMetal Parts3xRubber Parts",
+      "reason": [
+        "Recycles to: 6xMetal Parts3xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "6xMetal Parts3xRubber Parts"
     },
     "Ruined Handcuffs": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 8xMetal Parts",
+      "reason": [
+        "Recycles to: 8xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
     },
     "Ruined Parachute": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 10xFabric",
+      "reason": [
+        "Recycles to: 10xFabric"
+      ],
       "needed_for": null,
       "recycles_to": "10xFabric"
     },
     "Ruined Tactical Vest": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 5xFabric1xMagnet",
+      "reason": [
+        "Recycles to: 5xFabric1xMagnet"
+      ],
       "needed_for": null,
       "recycles_to": "5xFabric1xMagnet"
     },
     "Ruined Riot Shield": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 10xPlastic Parts6xRubber Parts",
+      "reason": [
+        "Recycles to: 10xPlastic Parts6xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "10xPlastic Parts6xRubber Parts"
     },
     "Rusted Bolts": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 8xMetal Parts",
+      "reason": [
+        "Recycles to: 8xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
     },
     "Rusted Gear": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "4xMetal Parts2xMechanical Components"
     },
     "Rusted Shut Medical Kit": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "2xSyringe1xAntiseptic"
     },
     "Rusted Tools": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "8xMetal Parts1xSteel Spring"
     },
     "Rusty ARC Steel": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 8xMetal Parts",
+      "reason": [
+        "Recycles to: 8xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "8xMetal Parts"
     },
     "Sample Cleaner": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xElectrical Components14xAssorted Seeds",
+      "reason": [
+        "Recycles to: 2xElectrical Components14xAssorted Seeds"
+      ],
       "needed_for": null,
       "recycles_to": "2xElectrical Components14xAssorted Seeds"
     },
     "Sensors": {
       "action": "KEEP",
-      "reason": "20xExpedition",
+      "reason": [
+        "20x Expedition"
+      ],
       "needed_for": "20xExpedition",
       "recycles_to": "2xWires2xMetal Parts"
     },
     "Sentinel Firing Core": {
       "action": "KEEP",
-      "reason": "4xWorkshop",
+      "reason": [
+        "4x Workshop"
+      ],
       "needed_for": "4xWorkshop",
       "recycles_to": "2xARC Alloy3xMechanical Components"
     },
     "Signal Amplifier": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xElectrical Components2xVoltage Converter",
+      "reason": [
+        "Recycles to: 2xElectrical Components2xVoltage Converter"
+      ],
       "needed_for": null,
       "recycles_to": "2xElectrical Components2xVoltage Converter"
     },
     "Silver Teaspoon Set": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Simple Gun Parts": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xMetal Parts",
+      "reason": [
+        "Recycles to: 2xMetal Parts"
+      ],
       "needed_for": null,
       "recycles_to": "2xMetal Parts"
     },
     "Snitch Scanner": {
       "action": "KEEP",
-      "reason": "6xWorkshop",
+      "reason": [
+        "6x Workshop"
+      ],
       "needed_for": "6xWorkshop",
       "recycles_to": "4xARC Alloy2xElectrical Components"
     },
     "Spaceport Container Storage Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Spaceport Control Tower Key": {
       "action": "KEEP",
-      "reason": "1x Quest",
+      "reason": [
+        "Quest"
+      ],
       "needed_for": "1x Quest",
       "recycles_to": "Cannot be recycled"
     },
     "Spaceport Trench Tower Key": {
       "action": "KEEP",
-      "reason": "1x Quest",
+      "reason": [
+        "Quest"
+      ],
       "needed_for": "1x Quest",
       "recycles_to": "Cannot be recycled"
     },
     "Spaceport Warehouse Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Speaker Component": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xPlastic Parts2xRubber Parts",
+      "reason": [
+        "Recycles to: 2xPlastic Parts2xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "2xPlastic Parts2xRubber Parts"
     },
     "Spectrometer": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xAdvanced Electrical Components1xSensors",
+      "reason": [
+        "Recycles to: 1xAdvanced Electrical Components1xSensors"
+      ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Electrical Components1xSensors"
     },
     "Spectrum Analyzer": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xSensors1xExodus Modules",
+      "reason": [
+        "Recycles to: 1xSensors1xExodus Modules"
+      ],
       "needed_for": null,
       "recycles_to": "1xSensors1xExodus Modules"
     },
     "Spring Cushion": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xDurable Cloth2xSteel Spring",
+      "reason": [
+        "Recycles to: 2xDurable Cloth2xSteel Spring"
+      ],
       "needed_for": null,
       "recycles_to": "2xDurable Cloth2xSteel Spring"
     },
     "Spotter Relay": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xElectrical Components1xARC Alloy",
+      "reason": [
+        "Recycles to: 2xElectrical Components1xARC Alloy"
+      ],
       "needed_for": null,
       "recycles_to": "2xElectrical Components1xARC Alloy"
     },
     "Statuette": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Steel Spring": {
       "action": "KEEP",
-      "reason": "15xExpedition",
+      "reason": [
+        "15x Expedition"
+      ],
       "needed_for": "15xExpedition",
       "recycles_to": "3xMetal Parts"
     },
     "Stella Montis Archives Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Stella Montis Assembly Admin Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Stella Montis Medical Storage Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Stella Montis Security Checkpoint Key": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Surveyor Vault": {
       "action": "KEEP",
-      "reason": "5xWorkshop1xQuest",
+      "reason": [
+        "5x Workshop",
+        "1x Quest"
+      ],
       "needed_for": "5xWorkshop1xQuest",
       "recycles_to": "2xMechanical Components2xARC Alloy"
     },
     "Synthesized Fuel": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "1xOil1xPlastic Parts"
     },
     "Syringe": {
       "action": "KEEP",
-      "reason": "1xQuest",
+      "reason": [
+        "1x Quest"
+      ],
       "needed_for": "1xQuest",
       "recycles_to": "3xPlastic Parts2xChemicals"
     },
     "Tattered ARC Lining": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 12xFabric",
+      "reason": [
+        "Recycles to: 12xFabric"
+      ],
       "needed_for": null,
       "recycles_to": "12xFabric"
     },
     "Tattered Clothes": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 11xFabric",
+      "reason": [
+        "Recycles to: 11xFabric"
+      ],
       "needed_for": null,
       "recycles_to": "11xFabric"
     },
     "Telemetry Transceiver": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xAdvanced Electrical Components1xProcessor",
+      "reason": [
+        "Recycles to: 1xAdvanced Electrical Components1xProcessor"
+      ],
       "needed_for": null,
       "recycles_to": "1xAdvanced Electrical Components1xProcessor"
     },
     "Thermostat": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 6xRubber Parts2xSensors",
+      "reason": [
+        "Recycles to: 6xRubber Parts2xSensors"
+      ],
       "needed_for": null,
       "recycles_to": "6xRubber Parts2xSensors"
     },
     "Tick Pod": {
       "action": "KEEP",
-      "reason": "8xWorkshop",
+      "reason": [
+        "8x Workshop"
+      ],
       "needed_for": "8xWorkshop",
       "recycles_to": "1xChemicals1xMetal Parts"
     },
     "Toaster": {
       "action": "KEEP",
-      "reason": "3xWorkshop",
+      "reason": [
+        "3x Workshop"
+      ],
       "needed_for": "3xWorkshop",
       "recycles_to": "5xPlastic Parts3xWires"
     },
     "Torn Book": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Torn Blanket": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 12xFabric",
+      "reason": [
+        "Recycles to: 12xFabric"
+      ],
       "needed_for": null,
       "recycles_to": "12xFabric"
     },
     "Turbo Pump": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xMechanical Components3xOil",
+      "reason": [
+        "Recycles to: 1xMechanical Components3xOil"
+      ],
       "needed_for": null,
       "recycles_to": "1xMechanical Components3xOil"
     },
     "Unusable Weapon": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 4xMetal Parts5xSimple Gun Parts",
+      "reason": [
+        "Recycles to: 4xMetal Parts5xSimple Gun Parts"
+      ],
       "needed_for": null,
       "recycles_to": "4xMetal Parts5xSimple Gun Parts"
     },
     "Vase": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Very Comfortable Pillow": {
       "action": "KEEP",
-      "reason": "3xScrappy",
+      "reason": [
+        "3x Scrappy"
+      ],
       "needed_for": "3xScrappy",
       "recycles_to": "Cannot be recycled"
     },
     "Volcanic Rock": {
       "action": "SELL",
-      "reason": "No quest use, doesn't recycle",
+      "reason": [
+        "No quest use, doesn't recycle"
+      ],
       "needed_for": null,
       "recycles_to": "Cannot be recycled"
     },
     "Voltage Converter": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 1xWires1xRubber Parts",
+      "reason": [
+        "Recycles to: 1xWires1xRubber Parts"
+      ],
       "needed_for": null,
       "recycles_to": "1xWires1xRubber Parts"
     },
     "Wasp Driver": {
       "action": "KEEP",
-      "reason": "8xWorkshop",
+      "reason": [
+        "8x Workshop"
+      ],
       "needed_for": "8xWorkshop",
       "recycles_to": "1xARC Alloy1xElectrical Components"
     },
     "Water Filter": {
       "action": "RECYCLE",
-      "reason": "Recycles to: 2xRubber Parts3xCanister",
+      "reason": [
+        "Recycles to: 2xRubber Parts3xCanister"
+      ],
       "needed_for": null,
       "recycles_to": "2xRubber Parts3xCanister"
     },
     "Water Pump": {
       "action": "KEEP",
-      "reason": "1xQuest",
+      "reason": [
+        "1x Quest"
+      ],
       "needed_for": "1xQuest",
       "recycles_to": "4xMetal Parts2xOil"
     },
     "Wires": {
       "action": "KEEP",
-      "reason": "30xExpedition3x Quest",
+      "reason": [
+        "30x Expedition",
+        "Quest"
+      ],
       "needed_for": "30xExpedition3x Quest",
       "recycles_to": "2xRubber Parts"
     }
