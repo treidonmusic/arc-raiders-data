@@ -1,6 +1,8 @@
 {
-  "last_updated": "2025-12-01T23:39:43.953126",
-  "version": "2.0",
+  "last_updated": "2025-12-02T00:13:25.456691",
+  "scraper_build": "BUILD_20251202_000715",
+  "scraper_timestamp": "2025-12-02 00:07:15",
+  "version": "2.1",
   "item_count": 212,
   "items": {
     "Advanced ARC Powercell": {
@@ -525,7 +527,7 @@
         {
           "ingredients": "2x ARC Alloy, 4x Plastic Parts",
           "workshop_level": "→",
-          "produces": "Gear Bench 1orWorkbench"
+          "produces": "Gear Bench 1 or Workbench"
         }
       ],
       "workshop_upgrades": [
@@ -2516,7 +2518,7 @@
         {
           "ingredients": "5x Fabric",
           "workshop_level": "→",
-          "produces": "Medical Lab 1orWorkbench"
+          "produces": "Medical Lab 1 or Workbench"
         },
         {
           "ingredients": "5x Fabric",
@@ -5204,7 +5206,7 @@
         {
           "ingredients": "6x Rubber Parts, 6x Plastic Parts",
           "workshop_level": "→",
-          "produces": "Gear Bench 1orWorkbench"
+          "produces": "Gear Bench 1 or Workbench"
         },
         {
           "ingredients": "3x Metal Parts, 2x Rubber Parts",
@@ -5214,7 +5216,7 @@
         {
           "ingredients": "5x Metal Parts, 2x Rubber Parts",
           "workshop_level": "→",
-          "produces": "Gunsmith 1orWorkbench"
+          "produces": "Gunsmith 1 or Workbench"
         },
         {
           "ingredients": "4x Chemicals, 2x Rubber Parts",
@@ -5224,12 +5226,12 @@
         {
           "ingredients": "6x Metal Parts, 8x Rubber Parts",
           "workshop_level": "→",
-          "produces": "Gunsmith 1orWorkbench"
+          "produces": "Gunsmith 1 or Workbench"
         },
         {
           "ingredients": "6x Rubber Parts, 6x Plastic Parts",
           "workshop_level": "→",
-          "produces": "Gear Bench 1orWorkbench"
+          "produces": "Gear Bench 1 or Workbench"
         },
         {
           "ingredients": "2x Chemicals, 4x Rubber Parts",
@@ -5249,7 +5251,7 @@
         {
           "ingredients": "8x Metal Parts, 4x Rubber Parts",
           "workshop_level": "→",
-          "produces": "Gunsmith 1orWorkbench"
+          "produces": "Gunsmith 1 or Workbench"
         },
         {
           "ingredients": "Stitcher I8x Metal Parts, 12x Rubber Parts",
@@ -5259,7 +5261,7 @@
         {
           "ingredients": "6x Rubber Parts, 6x Plastic Parts",
           "workshop_level": "→",
-          "produces": "Gear Bench 1orWorkbench"
+          "produces": "Gear Bench 1 or Workbench"
         }
       ],
       "workshop_upgrades": [
