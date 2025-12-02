@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-01T13:59:42.476083",
+  "last_updated": "2025-12-01T17:53:07.879314",
   "version": "2.0",
   "item_count": 212,
   "items": {
@@ -15,7 +15,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Advanced_ARC_Powercell",
       "image": "Advanced_ARC_Powercell.png",
-      "description": "Advanced ARC Powercell is a r are item used to craft o ther items.",
+      "can_be_found_in": "ARC",
+      "weight": "0.5",
+      "description": "Advanced ARC Powercell is a rare item used to craft other items.",
+      "sources": [
+        "Sentinel",
+        "Bombardier",
+        "Bastion",
+        "Rocketeer",
+        "Leaper",
+        "The Queen",
+        "ARC Surveyor"
+      ],
       "crafting": [
         {
           "ingredients": "1x Advanced ARC Powercell, 1x Battery",
@@ -27,15 +38,6 @@
           "workshop_level": "→",
           "produces": "Medical Lab 2"
         }
-      ],
-      "sources": [
-        "Sentinel",
-        "Bombardier",
-        "Bastion",
-        "Rocketeer",
-        "Leaper",
-        "The Queen",
-        "ARC Surveyor"
       ],
       "recycling_detail": "2×ARC Powercell",
       "salvaging_detail": "1×ARC Powercell"
@@ -56,7 +58,15 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Advanced_Electrical_Components",
       "image": "Advanced_Electrical_Components.png",
-      "description": "Advanced Electrical Components is a r are item used to craft o ther items.",
+      "can_be_found_in": "Electrical",
+      "weight": "1",
+      "description": "Advanced Electrical Components is a rare item used to craft other items.",
+      "sources": [
+        "Scavenging",
+        "Crafting",
+        "Recycling",
+        "The Queen"
+      ],
       "crafting": [
         {
           "ingredients": "1x Advanced Electrical Components, 3x Sensors",
@@ -75,16 +85,28 @@
         }
       ],
       "projects": [
-        "25 November 2025"
-      ],
-      "sources": [
-        "Scavenging",
-        "Crafting",
-        "Recycling",
-        "The Queen"
+        {
+          "materials": "5x Humidifier, 5x Advanced Electrical Components3Magnetic Accelerator3x Leaper Pulse Unit",
+          "stage_from": "Outfitting (4/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "1×Electrical Components1×Wires",
-      "salvaging_detail": "1×Electrical Components"
+      "salvaging_detail": "1×Electrical Components",
+      "recycled_from": [
+        "Combat Mk. 3 (Aggressive) (1x)",
+        "Combat Mk. 3 (Flanking) (1x)",
+        "Frequency Modulation Box (1x)",
+        "Looting Mk. 3 (Cautious) (1x)",
+        "Looting Mk. 3 (Survivor) (1x)",
+        "Photoelectric Cloak (1x)",
+        "Power Rod (1x)",
+        "Rocketeer Driver (2x)",
+        "Spectrometer (1x)",
+        "Tactical Mk. 3 (Defensive) (1x)",
+        "Tactical Mk. 3 (Healing) (1x)",
+        "Telemetry Transceiver (1x)"
+      ]
     },
     "Advanced Mechanical Components": {
       "action": "KEEP",
@@ -101,7 +123,15 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Advanced_Mechanical_Components",
       "image": "Advanced_Mechanical_Components.png",
-      "description": "Advanced Mechanical Components is a r are item used to craft o ther items.",
+      "can_be_found_in": "Mechanical",
+      "weight": "1",
+      "description": "Advanced Mechanical Components is a rare item used to craft other items.",
+      "sources": [
+        "Scavenging",
+        "Crafting",
+        "Recycling",
+        "The Queen"
+      ],
       "crafting": [
         {
           "ingredients": "3x Advanced Mechanical Components, 3x Heavy Gun Parts3x Canister",
@@ -254,14 +284,53 @@
           "produces": "Gunsmith 1"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Crafting",
-        "Recycling",
-        "The Queen"
-      ],
       "recycling_detail": "1×Steel Spring1×Mechanical Components",
-      "salvaging_detail": "1×Mechanical Components"
+      "salvaging_detail": "1×Mechanical Components",
+      "recycled_from": [
+        "Bastion Cell (2x)",
+        "Bettina I (1x)",
+        "Bettina II (2x)",
+        "Bettina III (2x)",
+        "Bettina IV (3x)",
+        "Bobcat I (2x)",
+        "Bobcat II (3x)",
+        "Bobcat III (4x)",
+        "Bobcat IV (5x)",
+        "Bombardier Cell (2x)",
+        "Flow Controller (1x)",
+        "Hullcracker I (2x)",
+        "Hullcracker II (2x)",
+        "Hullcracker III (3x)",
+        "Hullcracker IV (4x)",
+        "Leaper Pulse Unit (2x)",
+        "Magnetic Accelerator (1x)",
+        "Microscope (1x)",
+        "Mini Centrifuge (1x)",
+        "Osprey I (1x)",
+        "Osprey II (2x)",
+        "Osprey III (2x)",
+        "Osprey IV (3x)",
+        "Renegade I (1x)",
+        "Renegade II (2x)",
+        "Renegade III (2x)",
+        "Renegade IV (3x)",
+        "Tempest I (2x)",
+        "Tempest II (3x)",
+        "Tempest III (4x)",
+        "Tempest IV (5x)",
+        "Torrente I (1x)",
+        "Torrente II (2x)",
+        "Torrente III (2x)",
+        "Torrente IV (3x)",
+        "Venator I (1x)",
+        "Venator II (2x)",
+        "Venator III (2x)",
+        "Venator IV (3x)",
+        "Vulcano I (2x)",
+        "Vulcano II (2x)",
+        "Vulcano III (3x)",
+        "Vulcano IV (4x)"
+      ]
     },
     "Agave": {
       "action": "RECYCLE",
@@ -275,16 +344,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Agave",
       "image": "Agave.png",
-      "description": "Agave is a nice refresh ing snack that'll help you heal in a p inch.",
+      "can_be_found_in": "Nature",
+      "weight": "0.2",
+      "description": "Agave is a nice refreshing snack that'll help you heal in a pinch.",
+      "sources": [
+        "Scavenging"
+      ],
       "crafting": [
         {
           "ingredients": "1x Agave, 1x Empty Wine Bottle",
           "workshop_level": "→",
           "produces": "Inventory"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "3×Assorted Seeds",
       "salvaging_detail": "2×Assorted Seeds"
@@ -299,16 +370,18 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Air_Freshener",
       "image": "Air_Freshener.png",
-      "description": "Air Freshener is a terrible gift to give to ano ther Raiderdown in Speranza.",
+      "can_be_found_in": "Mechanical",
+      "weight": "0.3",
+      "description": "Air Freshener is a terrible gift to give to another Raider Raider down in Speranza Speranza .",
+      "sources": [
+        "Scavenging"
+      ],
       "crafting": [
         {
           "ingredients": "1x Fireball Burner, 1x Air Freshener",
           "workshop_level": "→",
           "produces": "Inventory"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ]
     },
     "Alarm Clock": {
@@ -324,7 +397,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Alarm_Clock",
       "image": "Alarm_Clock.png",
-      "description": "The Alarm Clock is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "2",
+      "description": "The Alarm Clock is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -346,7 +421,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Antiseptic",
       "image": "Antiseptic.png",
-      "description": "Ant iseptic is a r are item used to craft medical items that can also be recycled in to craft ing materials.",
+      "can_be_found_in": "Medical",
+      "weight": "1.0",
+      "description": "Antiseptic is a rare item used to craft medical items that can also be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Crafting",
+        "Recycling"
+      ],
       "crafting": [
         {
           "ingredients": "2x Durable Cloth, 1x Antiseptic",
@@ -359,13 +441,13 @@
           "produces": "Medical Lab 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Crafting",
-        "Recycling"
-      ],
       "recycling_detail": "10×Chemicals",
-      "salvaging_detail": "5×Chemicals"
+      "salvaging_detail": "5×Chemicals",
+      "recycled_from": [
+        "Rusted Shut Medical Kit (1x)",
+        "Sterilized Bandage (1x)",
+        "Vita Spray (1x)"
+      ]
     },
     "Apricot": {
       "action": "KEEP",
@@ -381,7 +463,19 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Apricot",
       "image": "Apricot.png",
-      "description": "Apricots are a nice refresh ing snack that will give your Raider a burst of energy.",
+      "can_be_found_in": "Nature",
+      "weight": "0.2",
+      "description": "Apricots are a nice refreshing snack that will give your Raider a burst of energy.",
+      "sources": [
+        "Scavenging"
+      ],
+      "crafting": [
+        {
+          "ingredients": "1x Lemon, 1x Apricot1x Prickly Pear",
+          "workshop_level": "→",
+          "produces": "Inventory"
+        }
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Lemon, 3x Apricot",
@@ -393,16 +487,6 @@
           "workshop_level": "Scrappy IV",
           "upgrade": "Scrappy V"
         }
-      ],
-      "crafting": [
-        {
-          "ingredients": "1x Lemon, 1x Apricot1x Prickly Pear",
-          "workshop_level": "→",
-          "produces": "Inventory"
-        }
-      ],
-      "sources": [
-        "Scavenging"
       ]
     },
     "ARC Alloy": {
@@ -420,23 +504,12 @@
       ],
       "url": "https://arcraiders.wiki/wiki/ARC_Alloy",
       "image": "ARC_Alloy.png",
-      "description": "ARC Alloy is found on almost every destroyed ARCand is used to craft a variety of items.",
-      "workshop_upgrades": [
-        {
-          "cost": "50x Fabric, 6x ARC Alloy",
-          "workshop_level": "-",
-          "upgrade": "Medical Lab 1"
-        },
-        {
-          "cost": "50x Chemicals, 6x ARC Alloy",
-          "workshop_level": "-",
-          "upgrade": "Explosives Station 1"
-        },
-        {
-          "cost": "50x Plastic Parts, 6x ARC Alloy",
-          "workshop_level": "-",
-          "upgrade": "Utility Station 1"
-        }
+      "can_be_found_in": "ARC",
+      "weight": "0.25",
+      "description": "ARC Alloy is found on almost every destroyed ARC ARC and is used to craft a variety of items.",
+      "sources": [
+        "ARC",
+        "Recycling"
       ],
       "crafting": [
         {
@@ -455,15 +528,58 @@
           "produces": "Gear Bench 1orWorkbench"
         }
       ],
-      "projects": [
-        "25 November 2025"
+      "workshop_upgrades": [
+        {
+          "cost": "50x Fabric, 6x ARC Alloy",
+          "workshop_level": "-",
+          "upgrade": "Medical Lab 1"
+        },
+        {
+          "cost": "50x Chemicals, 6x ARC Alloy",
+          "workshop_level": "-",
+          "upgrade": "Explosives Station 1"
+        },
+        {
+          "cost": "50x Plastic Parts, 6x ARC Alloy",
+          "workshop_level": "-",
+          "upgrade": "Utility Station 1"
+        }
       ],
-      "sources": [
-        "ARC",
-        "Recycling"
+      "projects": [
+        {
+          "materials": "150x Metal Parts, 200x Rubber Parts80x ARC Alloy, 15x Steel Spring",
+          "stage_from": "Foundation (1/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "2×Metal Parts",
-      "salvaging_detail": "1×Metal Parts"
+      "salvaging_detail": "1×Metal Parts",
+      "recycled_from": [
+        "ARC Circuitry (2x)",
+        "ARC Motion Core (2x)",
+        "Bastion Cell (2x)",
+        "Bombardier Cell (2x)",
+        "Burned ARC Circuitry (2x)",
+        "Damaged ARC Motion Core (2x)",
+        "Damaged ARC Powercell (2x)",
+        "Damaged Fireball Burner (1x)",
+        "Damaged Hornet Driver (2x)",
+        "Damaged Rocketeer Driver (3x)",
+        "Damaged Tick Pod (1x)",
+        "Damaged Wasp Driver (1x)",
+        "Fireball Burner (1x)",
+        "Hornet Driver (2x)",
+        "Leaper Pulse Unit (3x)",
+        "Pop Trigger (1x)",
+        "Rocketeer Driver (3x)",
+        "Sentinel Firing Core (2x)",
+        "Shredder Gyro (3x)",
+        "Snitch Scanner (1x)",
+        "Spotter Relay (1x)",
+        "Surveyor Vault (2x)",
+        "Tick Pod (2x)",
+        "Wasp Driver (1x)"
+      ]
     },
     "ARC Circuitry": {
       "action": "KEEP",
@@ -479,7 +595,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/ARC_Circuitry",
       "image": "ARC_Circuitry.png",
-      "description": "ARC Circuitry is found on lots of destroyed ARCand is used to craft higher end items.",
+      "can_be_found_in": "ARC",
+      "weight": "0.3",
+      "description": "ARC Circuitry is found on lots of destroyed ARC ARC and is used to craft higher end items.",
+      "sources": [
+        "ARC",
+        "Crafting",
+        "Recycling"
+      ],
       "crafting": [
         {
           "ingredients": "4x Battery, 1x ARC Circuitry",
@@ -492,13 +615,14 @@
           "produces": "Refiner 3"
         }
       ],
-      "sources": [
-        "ARC",
-        "Crafting",
-        "Recycling"
-      ],
       "recycling_detail": "2×ARC Alloy",
-      "salvaging_detail": "1×ARC Alloy"
+      "salvaging_detail": "1×ARC Alloy",
+      "recycled_from": [
+        "Deadline (1x)",
+        "Heavy Shield (2x)",
+        "Medium Shield (1x)",
+        "Power Rod (1x)"
+      ]
     },
     "ARC Coolant": {
       "action": "RECYCLE",
@@ -512,7 +636,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/ARC_Coolant",
       "image": "ARC_Coolant.png",
-      "description": "ARC Coolant is a r are item found by destroy ing ARCand is recycled down for basic materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "ARC Coolant is a rare item found by destroying ARC ARC and is recycled down for basic materials.",
       "sources": [
         "ARC"
       ],
@@ -531,7 +657,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/ARC_Flex_Rubber",
       "image": "ARC_Flex_Rubber.png",
-      "description": "ARC Flex Rubber is a r are item found by destroy ing ARCthat is recycled down for basic materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "ARC Flex Rubber is a rare item found by destroying ARC ARC that is recycled down for basic materials.",
       "sources": [
         "ARC"
       ],
@@ -552,13 +680,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/ARC_Motion_Core",
       "image": "ARC_Motion_Core.png",
-      "description": "An ARC Motion Corecan be found on some destroyed ARCand is used to craft higher end items.",
-      "workshop_upgrades": [
-        {
-          "cost": "3x Toaster, 5x ARC Motion Core8x Fireball Burner",
-          "workshop_level": "Refiner 1",
-          "upgrade": "Ref iner 2"
-        }
+      "can_be_found_in": "ARC",
+      "weight": "0.3",
+      "description": "An ARC Motion Core can be found on some destroyed ARC ARC and is used to craft higher end items.",
+      "sources": [
+        "ARC",
+        "Recycling",
+        "Crafting"
       ],
       "crafting": [
         {
@@ -572,13 +700,19 @@
           "produces": "Explosives Station 3"
         }
       ],
-      "sources": [
-        "ARC",
-        "Recycling",
-        "Crafting"
+      "workshop_upgrades": [
+        {
+          "cost": "3x Toaster, 5x ARC Motion Core8x Fireball Burner",
+          "workshop_level": "Refiner 1",
+          "upgrade": "Refiner 2"
+        }
       ],
       "recycling_detail": "2×ARC Alloy",
-      "salvaging_detail": "1×ARC Alloy"
+      "salvaging_detail": "1×ARC Alloy",
+      "recycled_from": [
+        "Magnetic Accelerator (1x)",
+        "Wolfpack (1x)"
+      ]
     },
     "ARC Performance Steel": {
       "action": "RECYCLE",
@@ -592,7 +726,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/ARC_Performance_Steel",
       "image": "ARC_Performance_Steel.png",
-      "description": "ARC Per formance Steelcan be found on some ARCand is recycled down to basic materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "ARC Performance Steel can be found on some ARC ARC and is recycled down to basic materials.",
       "sources": [
         "ARC"
       ],
@@ -611,13 +747,11 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/ARC_Powercell",
       "image": "ARC_Powercell.png",
-      "description": "The ARC Powercell is dropped by every ARCand can be used to repair shields in a p inch.",
-      "workshop_upgrades": [
-        {
-          "cost": "60x Metal Parts, 5x ARC Powercell",
-          "workshop_level": "-",
-          "upgrade": "Ref iner 1"
-        }
+      "can_be_found_in": "ARC",
+      "weight": "0.5",
+      "description": "The ARC Powercell is dropped by every ARC ARC and can be used to repair shields in a pinch.",
+      "sources": [
+        "ARC"
       ],
       "crafting": [
         {
@@ -636,8 +770,15 @@
           "produces": "Inventory"
         }
       ],
-      "sources": [
-        "ARC"
+      "workshop_upgrades": [
+        {
+          "cost": "60x Metal Parts, 5x ARC Powercell",
+          "workshop_level": "-",
+          "upgrade": "Refiner 1"
+        }
+      ],
+      "recycled_from": [
+        "Advanced ARC Powercell (2x)"
       ]
     },
     "ARC Synthetic Resin": {
@@ -652,7 +793,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/ARC_Synthetic_Resin",
       "image": "ARC_Synthetic_Resin.png",
-      "description": "ARC Syn thetic Res inis a r are item found on destroyed ARCthat can be recycled down for basic materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "ARC Synthetic Resin is a rare item found on destroyed ARC ARC that can be recycled down for basic materials.",
       "sources": [
         "ARC"
       ],
@@ -671,7 +814,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/ARC_Thermo_Lining",
       "image": "ARC_Thermo_Lining.png",
-      "description": "ARC Thermo Lin ing is a r are item that can be found on destroyed ARCand is recycled down for basic materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1.0",
+      "description": "ARC Thermo Lining is a rare item that can be found on destroyed ARC ARC and is recycled down for basic materials.",
       "sources": [
         "ARC"
       ],
@@ -690,7 +835,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Assorted_Seeds",
       "image": "Assorted_Seeds.png",
-      "description": "Assorted Seeds are the currency used to trade with Celeste.",
+      "can_be_found_in": "Nature",
+      "weight": "0.05",
+      "description": "Assorted Seeds are the currency used to trade with Celeste Celeste .",
       "sources": [
         "ScavengingPrimarily found in nature-rich or outdoor areas, particularly in zones with vegetation or degraded facility surroundings rather than high-tech interiors.Scrappy",
         "Primarily found in nature-rich or outdoor areas, particularly in zones with vegetation or degraded facility surroundings rather than high-tech interiors.",
@@ -711,16 +858,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Bastion_Cell",
       "image": "Bastion_Cell.png",
-      "description": "The Bastion Cell is an epic item only found by destroy ing a Bastion.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "The Bastion Cell is an epic item only found by destroying a Bastion Bastion .",
+      "sources": [
+        "Bastion"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Industrial Battery, 5x Advanced Electrical Components6x Bastion Cell",
           "workshop_level": "Gear Bench 2",
           "upgrade": "Gear Bench 3"
         }
-      ],
-      "sources": [
-        "Bastion"
       ],
       "recycling_detail": "2×Advanced Mechanical Components2×ARC Alloy",
       "salvaging_detail": "2×Advanced Mechanical Components"
@@ -739,7 +888,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Battery",
       "image": "Battery.png",
+      "can_be_found_in": "TechnologicalElectrical",
+      "weight": "0.25",
       "description": "The Battery is an uncommon item used to repair shields or can be recycled down for basic materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "1x Advanced ARC Powercell, 1x Battery",
@@ -758,15 +914,25 @@
         }
       ],
       "projects": [
-        "25 November 2025"
-      ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
+        {
+          "materials": "5x Light Bulb, 30x Battery20x Sensors, 1x Exodus Modules",
+          "stage_from": "Framework (3/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "2×Metal Parts",
-      "salvaging_detail": "1×Metal Parts"
+      "salvaging_detail": "1×Metal Parts",
+      "recycled_from": [
+        "Broken Flashlight (2x)",
+        "Broken Taser (2x)",
+        "Cracked Bioscanner (3x)",
+        "Geiger Counter (3x)",
+        "Industrial Battery (2x)",
+        "Jolt Mine (1x)",
+        "Portable TV (2x)",
+        "Power Bank (2x)",
+        "Showstopper (2x)"
+      ]
     },
     "Bicycle Pump": {
       "action": "RECYCLE",
@@ -781,7 +947,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Bicycle_Pump",
       "image": "Bicycle_Pump.png",
-      "description": "The Bicycle Pump is a r are item that can be recycled down for scraps.",
+      "can_be_found_in": "Residential",
+      "weight": "3",
+      "description": "The Bicycle Pump is a rare item that can be recycled down for scraps.",
       "sources": [
         "Scavenging"
       ],
@@ -798,7 +966,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Bloated_Tuna_Can",
       "image": "Bloated_Tuna_Can.png",
-      "description": "The Bloated Tuna Can is a \"refresh ing\" snack that will give your Raider a burst of energy.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.2",
+      "description": "The Bloated Tuna Can is a \"refreshing\" snack that will give your Raider a burst of energy.",
       "sources": [
         "Scavenging"
       ]
@@ -813,7 +983,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Blue_Gate_Communication_Tower_Key",
       "image": "Blue_Gate_Communication_Tower_Key.png",
-      "description": "Opens a locked room in the basement of Pilgrim's Peak on The Blue Gate. The door is close to the Tower, to the left when go ing from the zipl ine.",
+      "weight": "0.25",
+      "description": "Opens a locked room in the basement of Pilgrim's Peak on The Blue Gate The Blue Gate . The door is close to the Tower, to the left when going from the zipline.",
       "sources": [
         "Scavenging"
       ]
@@ -828,7 +999,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Blue_Gate_Confiscation_Room_Key",
       "image": "Blue_Gate_Confiscation_Room_Key.png",
-      "description": "The Blue Gate Conf iscation Room Key is an epic key that unlocks a door somewhere on Blue Gate.",
+      "weight": "0.25",
+      "description": "The Blue Gate Confiscation Room Key is an epic key that unlocks a door somewhere on Blue Gate Blue Gate .",
       "sources": [
         "Scavenging"
       ]
@@ -843,6 +1015,7 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Blue_Gate_Cellar_Key",
       "image": "Blue_Gate_Cellar_Key.png",
+      "weight": "0.25",
       "description": "A community-run wiki supported by Embark Studios",
       "sources": [
         "Scavenging"
@@ -858,7 +1031,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Blue_Gate_Village_Key",
       "image": "Blue_Gate_Village_Key.png",
-      "description": "The Blue Gate Village Key in an uncommon key that unlocks a door somewhere on Blue Gate.",
+      "weight": "0.25",
+      "description": "The Blue Gate Village Key in an uncommon key that unlocks a door somewhere on Blue Gate Blue Gate .",
       "sources": [
         "Scavenging"
       ]
@@ -878,7 +1052,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Bombardier_Cell",
       "image": "Bombardier_Cell.png",
-      "description": "The Bombardier Cell is an epic item only found by destroy ing a Bombardier.",
+      "can_be_found_in": "ARC",
+      "weight": "1.0",
+      "description": "The Bombardier Cell is an epic item only found by destroying a Bombardier Bombardier .",
       "sources": [
         "Bombardier"
       ],
@@ -895,7 +1071,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Breathtaking_Snow_Globe",
       "image": "Breathtaking_Snow_Globe.png",
-      "description": "The Breathtak ing Snow Globe is a valuable tr inket.",
+      "can_be_found_in": "ResidentialOld WorldCommercial",
+      "weight": "0.2",
+      "description": "The Breathtaking Snow Globe is a valuable trinket.",
       "sources": [
         "Scavenging"
       ]
@@ -913,7 +1091,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Broken_Flashlight",
       "image": "Broken_Flashlight.png",
-      "description": "The Broken Flashlight is a r are item that can be recycled down in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "2",
+      "description": "The Broken Flashlight is a rare item that can be recycled down into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -932,7 +1112,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Broken_Guidance_System",
       "image": "Broken_Guidance_System.png",
-      "description": "Broken Guidance System is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Industrial",
+      "weight": "3",
+      "description": "Broken Guidance System is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -952,7 +1134,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Broken_Handheld_Radio",
       "image": "Broken_Handheld_Radio.png",
-      "description": "The Broken Handheld Radio is a r are item that can be recycled down in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "3",
+      "description": "The Broken Handheld Radio is a rare item that can be recycled down into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -972,7 +1156,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Broken_Taser",
       "image": "Broken_Taser.png",
-      "description": "The Broken Taser is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "2",
+      "description": "The Broken Taser is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -989,7 +1175,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Buried_City_Hospital_Key",
       "image": "Buried_City_Hospital_Key.png",
-      "description": "Opens a locked room in the North West corner of the Hospital in Buried Cityon the Second Floor.",
+      "weight": "0.25",
+      "description": "Opens a locked room in the North West corner of the Hospital in Buried City Buried City on the Second Floor.",
       "sources": [
         "Scavenging",
         "Completing the Quest:Life Of A Pharmacist"
@@ -1005,7 +1192,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Buried_City_JKV_Employee_Access_Card",
       "image": "Buried_City_JKV_Employee_Access_Card.png",
-      "description": "Opens a locked room in the North side of the J Kozma Ventures build ing in Buried Cityon the Third Floor.",
+      "weight": "0.25",
+      "description": "Opens a locked room in the North side of the J Kozma Ventures building in Buried City Buried City on the Third Floor.",
       "sources": [
         "Scavenging"
       ]
@@ -1020,7 +1208,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Buried_City_Residential_Mastery_Key",
       "image": "Buried_City_Residential_Mastery_Key.png",
-      "description": "Opens several different locked doors throughout Buried City.",
+      "weight": "0.25",
+      "description": "Opens several different locked doors throughout Buried City Buried City .",
       "sources": [
         "Scavenging",
         "Completing the Quest:Digging Up Dirt"
@@ -1036,7 +1225,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Buried_City_Town_Hall_Key",
       "image": "Buried_City_Town_Hall_Key.png",
-      "description": "Opens a locked door to ga in access to the Town Hall in Buried City. The door is on the Nor thern side of the build ing at ground level.",
+      "weight": "0.25",
+      "description": "Opens a locked door to gain access to the Town Hall in Buried City Buried City . The door is on the Northern side of the building at ground level.",
       "sources": [
         "Scavenging",
         "Completing the Quest:Building A Library"
@@ -1054,6 +1244,8 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Burned_ARC_Circuitry",
       "image": "Burned_ARC_Circuitry.png",
+      "can_be_found_in": "ARC",
+      "weight": "0.25",
       "description": "A community-run wiki supported by Embark Studios",
       "sources": [
         "Scavenging"
@@ -1073,7 +1265,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Camera_Lens",
       "image": "Camera_Lens.png",
-      "description": "The Camera Lens is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "0.8",
+      "description": "The Camera Lens is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1092,7 +1286,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Candle_Holder",
       "image": "Candle_Holder.png",
-      "description": "The Candle Holder is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "2",
+      "description": "The Candle Holder is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1111,7 +1307,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Canister",
       "image": "Canister.png",
-      "description": "The Can ister is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Commercial",
+      "weight": "0.25",
+      "description": "The Canister is an uncommon item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "3x Advanced Mechanical Components, 3x Heavy Gun Parts3x Canister",
@@ -1134,13 +1337,17 @@
           "produces": "Medical Lab 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "3×Plastic Parts",
-      "salvaging_detail": "1×Plastic Parts"
+      "salvaging_detail": "1×Plastic Parts",
+      "recycled_from": [
+        "Bicycle Pump (4x)",
+        "Flame Spray (1x)",
+        "Humidifier (2x)",
+        "Mini Centrifuge (2x)",
+        "Smoke Grenade (1x)",
+        "Vita Spray (2x)",
+        "Water Filter (3x)"
+      ]
     },
     "Cat Bed": {
       "action": "KEEP",
@@ -1154,16 +1361,18 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Cat_Bed",
       "image": "Cat_Bed.png",
-      "description": "The Cat Bed is an adorable little tr inket.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.5",
+      "description": "The Cat Bed is an adorable little trinket.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "6x Olives, 6x Prickly Pear1 Cat Bed",
           "workshop_level": "Scrappy II",
           "upgrade": "Scrappy III"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ]
     },
     "Chemicals": {
@@ -1178,13 +1387,14 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Chemicals",
       "image": "Chemicals.png",
-      "description": "Chemicals are a common item that is an essential part of every Raider's stash. Used to craft all the ammo and explosives they'll use to destroy ARC... or o ther Raiders.",
-      "workshop_upgrades": [
-        {
-          "cost": "50x Chemicals, 6xARC Alloy",
-          "workshop_level": "-",
-          "upgrade": "Explosives Station 1"
-        }
+      "can_be_found_in": "MechanicalResidentialMedical",
+      "weight": "0.1",
+      "description": "Chemicals are a common item that is an essential part of every Raider's stash. Used to craft all the ammo and explosives they'll use to destroy ARC ARC ... or other Raiders Raiders .",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste",
+        "Scrappy"
       ],
       "crafting": [
         {
@@ -1263,11 +1473,39 @@
           "produces": "Explosives Station 2"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste",
-        "Scrappy"
+      "workshop_upgrades": [
+        {
+          "cost": "50x Chemicals, 6xARC Alloy",
+          "workshop_level": "-",
+          "upgrade": "Explosives Station 1"
+        }
+      ],
+      "recycled_from": [
+        "Adrenaline Shot (1x)",
+        "Antiseptic (10x)",
+        "ARC Coolant (16x)",
+        "Coolant (5x)",
+        "Cooling Coil (6x)",
+        "Crude Explosives (3x)",
+        "Fireball Burner (1x)",
+        "Gas Grenade (1x)",
+        "Gas Mine (1x)",
+        "Household Cleaner (11x)",
+        "Impure ARC Coolant (12x)",
+        "Industrial Battery (7x)",
+        "Laboratory Reagents (16x)",
+        "Li'l Smoke Grenade (1x)",
+        "Light Impact Grenade (1x)",
+        "Light Stick (1x)",
+        "Oil (3x)",
+        "Pulse Mine (6x)",
+        "Remote Raider Flare (1x)",
+        "Smoke Grenade (2x)",
+        "Snap Blast Grenade (1x)",
+        "Syringe (3x)",
+        "Tick Pod (2x)",
+        "Trigger 'Nade (1x)",
+        "Vita Shot (4x)"
       ]
     },
     "Coffee Pot": {
@@ -1280,7 +1518,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Coffee_Pot",
       "image": "Coffee_Pot.png",
-      "description": "The Coffee Pot is a tr inket that you sadly can't use to brew c offee.",
+      "can_be_found_in": "Residential",
+      "weight": "0.3",
+      "description": "The Coffee Pot is a trinket that you sadly can't use to brew coffee.",
       "sources": [
         "Scavenging"
       ]
@@ -1297,7 +1537,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Complex_Gun_Parts",
       "image": "Complex_Gun_Parts.png",
-      "description": "Complex Gun Parts are used to craft more advanced weaponry and can be recycled down to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "1",
+      "description": "Complex Gun Parts are used to craft more advanced weaponry and can be recycled down to crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "3x Magnetic Accelerator, 3x Complex Gun Parts1x Queen Reactor",
@@ -1310,13 +1557,13 @@
           "produces": "Gunsmith 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "3×Simple Gun Parts",
-      "salvaging_detail": "2×Simple Gun Parts"
+      "salvaging_detail": "2×Simple Gun Parts",
+      "recycled_from": [
+        "Aphelion (1x)",
+        "Equalizer (1x)",
+        "Jupiter (1x)"
+      ]
     },
     "Coolant": {
       "action": "RECYCLE",
@@ -1331,7 +1578,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Coolant",
       "image": "Coolant.png",
-      "description": "Coolant is a r are item that is recycled for parts.",
+      "can_be_found_in": "Mechanical",
+      "weight": "2",
+      "description": "Coolant is a rare item that is recycled for parts.",
       "sources": [
         "Scavenging"
       ],
@@ -1351,7 +1600,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Cooling_Coil",
       "image": "Cooling_Coil.png",
-      "description": "The Cool ing Coil is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Industrial",
+      "weight": "2",
+      "description": "The Cooling Coil is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1373,12 +1624,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Cooling_Fan",
       "image": "Cooling_Fan.png",
-      "description": "The Cool ing Fan is a r are item that can be recycled in to craft ing materials.",
-      "projects": [
-        "25 November 2025"
-      ],
+      "can_be_found_in": "Technological",
+      "weight": "3",
+      "description": "The Cooling Fan is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
+      ],
+      "projects": [
+        {
+          "materials": "35x Durable Cloth, 30x Wires30x Electrical Components, 5x Cooling Fan",
+          "stage_from": "Core System (2/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "4×Wires14×Plastic Parts",
       "salvaging_detail": "4×Wires"
@@ -1398,16 +1655,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Cracked_Bioscanner",
       "image": "Cracked_Bioscanner.png",
-      "description": "The Cracked Bioscanner is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Medical",
+      "weight": "2",
+      "description": "The Cracked Bioscanner is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging - Mainly found on beds in Hospitals"
+      ],
       "workshop_upgrades": [
         {
           "cost": "2x Cracked Bioscanner, 5x Durable Cloth8x Tick Pod",
           "workshop_level": "Medical Lab 1",
           "upgrade": "Medical Lab 2"
         }
-      ],
-      "sources": [
-        "Scavenging - Mainly found on beds in Hospitals"
       ],
       "recycling_detail": "3×Rubber Parts3×Battery",
       "salvaging_detail": "2×Battery"
@@ -1426,13 +1685,11 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Crude_Explosives",
       "image": "Crude_Explosives.png",
-      "description": "Crude Explosives is an uncommon item that can be recycled in to craft ing materials or thrown to create a small explosion.",
-      "workshop_upgrades": [
-        {
-          "cost": "3x Synthesized Fuel, 5x Crude Explosives5x Pop Trigger",
-          "workshop_level": "Explosives Station 1",
-          "upgrade": "Explosives Station 2"
-        }
+      "can_be_found_in": "IndustrialSecurity",
+      "weight": "2",
+      "description": "Crude Explosives is an uncommon item that can be recycled into crafting materials or thrown to create a small explosion.",
+      "sources": [
+        "Scavenging"
       ],
       "crafting": [
         {
@@ -1456,11 +1713,23 @@
           "produces": "Explosives Station 2"
         }
       ],
-      "sources": [
-        "Scavenging"
+      "workshop_upgrades": [
+        {
+          "cost": "3x Synthesized Fuel, 5x Crude Explosives5x Pop Trigger",
+          "workshop_level": "Explosives Station 1",
+          "upgrade": "Explosives Station 2"
+        }
       ],
       "recycling_detail": "3×Chemicals",
-      "salvaging_detail": "2×Chemicals"
+      "salvaging_detail": "2×Chemicals",
+      "recycled_from": [
+        "Explosive Compound (2x)",
+        "Laboratory Reagents (3x)",
+        "Pop Trigger (1x)",
+        "Seeker Grenade (1x)",
+        "Shrapnel Grenade (1x)",
+        "Trailblazer (2x)"
+      ]
     },
     "Crumpled Plastic Bottle": {
       "action": "RECYCLE",
@@ -1474,7 +1743,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Crumpled_Plastic_Bottle",
       "image": "Crumpled_Plastic_Bottle.png",
-      "description": "The Crumpled Plastic Bottle is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "0.8",
+      "description": "The Crumpled Plastic Bottle is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1491,7 +1762,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Dam_Control_Tower_Key",
       "image": "Dam_Control_Tower_Key.png",
-      "description": "Opens a locked door in the Control Tower on Dam Battlegrounds. The door is located at the top floor. Inside various parts of th is room, loot conta iners such as Lockers and Gun Casescan spawn.",
+      "weight": "0.25",
+      "description": "Opens a locked door in the Control Tower on Dam Battlegrounds Dam Battlegrounds . The door is located at the top floor. Inside various parts of this room, loot containers such as Lockers Lockers and Gun Cases Gun Cases can spawn.",
       "sources": [
         "Scavenging"
       ]
@@ -1506,7 +1778,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Dam_Staff_Room_Key",
       "image": "Dam_Staff_Room_Key.png",
-      "description": "Opens a locked door in the Research & Adm inistration build ing on Dam Battlegroundson the First Floor.",
+      "weight": "0.25",
+      "description": "Opens a locked door in the Research & Administration building on Dam Battlegrounds Dam Battlegrounds on the First Floor.",
       "sources": [
         "Scavenging",
         "Completing the Quest:Tribute To Toledo"
@@ -1522,7 +1795,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Dam_Surveillance_Key",
       "image": "Dam_Surveillance_Key.png",
-      "description": "Opens a locked room on the South side of the Water Treatment build ings on Dam Battlegroundson the First Floor.",
+      "weight": "0.25",
+      "description": "Opens a locked room on the South side of the Water Treatment buildings on Dam Battlegrounds Dam Battlegrounds on the First Floor.",
       "sources": [
         "Scavenging"
       ]
@@ -1537,7 +1811,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Dam_Testing_Annex_Key",
       "image": "Dam_Testing_Annex_Key.png",
-      "description": "Opens 2 locked doors inside the Test ing Annex on Dam Battlegrounds. Keep in m ind you can only unlock one of the two doors unless you br ing two keys. Both doors are on the ground level with one be ing in the South side of the build ing and the o ther on the East side.",
+      "weight": "0.25",
+      "description": "Opens 2 locked doors inside the Testing Annex on Dam Battlegrounds Dam Battlegrounds . Keep in mind you can only unlock one of the two doors unless you bring two keys. Both doors are on the ground level with one being in the South side of the building and the other on the East side.",
       "sources": [
         "Scavenging"
       ]
@@ -1552,7 +1827,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Dam_Utility_Key",
       "image": "Dam_Utility_Key.png",
-      "description": "Location is currently unknown except that it is on Dam Battlegrounds.",
+      "weight": "0.25",
+      "description": "Location is currently unknown except that it is on Dam Battlegrounds Dam Battlegrounds .",
       "sources": [
         "Scavenging",
         "Completing the Quest:Flickering Threat"
@@ -1570,7 +1846,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Damaged_ARC_Motion_Core",
       "image": "Damaged_ARC_Motion_Core.png",
-      "description": "The Damaged ARC Motion Core is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.25",
+      "description": "The Damaged ARC Motion Core is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1589,7 +1867,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Damaged_ARC_Powercell",
       "image": "Damaged_ARC_Powercell.png",
-      "description": "The Damaged ARC Powercell is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.25",
+      "description": "The Damaged ARC Powercell is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1608,7 +1888,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Damaged_Fireball_Burner",
       "image": "Damaged_Fireball_Burner.png",
-      "description": "Damaged Fireball Burner is a common item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "Damaged Fireball Burner is a common item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1630,16 +1912,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Damaged_Heat_Sink",
       "image": "Damaged_Heat_Sink.png",
-      "description": "The Damaged Heat Sink is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Technological",
+      "weight": "2",
+      "description": "The Damaged Heat Sink is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "2x Damaged Heat Sink, 5x Electrical Components6x Snitch Scanner",
           "workshop_level": "Utility Station 1",
           "upgrade": "Utility Station 2"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "2×Wires6×Metal Parts",
       "salvaging_detail": "3×Wires"
@@ -1656,7 +1940,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Damaged_Hornet_Driver",
       "image": "Damaged_Hornet_Driver.png",
-      "description": "The Damaged Hornet Driver is a common item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.3",
+      "description": "The Damaged Hornet Driver is a common item that can be recycled into crafting materials.",
       "sources": [
         "ARC"
       ],
@@ -1675,7 +1961,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Damaged_Rocketeer_Driver",
       "image": "Damaged_Rocketeer_Driver.png",
-      "description": "The Damaged Rocketeer Driver is a common item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.25",
+      "description": "The Damaged Rocketeer Driver is a common item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1694,6 +1982,8 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Damaged_Snitch_Scanner",
       "image": "Damaged_Snitch_Scanner.png",
+      "can_be_found_in": "ARC",
+      "weight": "0.25",
       "description": "A community-run wiki supported by Embark Studios",
       "sources": [
         "Scavenging",
@@ -1712,7 +2002,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Damaged_Tick_Pod",
       "image": "Damaged_Tick_Pod.png",
-      "description": "The Damaged Tick Pod is a common item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.25",
+      "description": "The Damaged Tick Pod is a common item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1731,7 +2023,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Damaged_Wasp_Driver",
       "image": "Damaged_Wasp_Driver.png",
-      "description": "The Damaged Wasp Driver is a common item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.25",
+      "description": "The Damaged Wasp Driver is a common item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1748,7 +2042,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Dart_Board",
       "image": "Dart_Board.png",
-      "description": "The Dart Board is a tr inket that your Raider hasn't quite figured out how to \"repurpose\" from the bar in Speranza.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "1",
+      "description": "The Dart Board is a trinket that your Raider hasn't quite figured out how to \"repurpose\" from the bar in Speranza Speranza .",
       "sources": [
         "Scavenging"
       ]
@@ -1765,7 +2061,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Deflated_Football",
       "image": "Deflated_Football.png",
-      "description": "The Deflated Football is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "0.8",
+      "description": "The Deflated Football is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1784,7 +2082,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Degraded_ARC_Rubber",
       "image": "Degraded_ARC_Rubber.png",
-      "description": "Degraded ARC Rubber is an uncommon item found on destroyed ARCthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "Degraded ARC Rubber is an uncommon item found on destroyed ARC ARC that can be recycled into crafting materials.",
       "sources": [
         "ARC"
       ],
@@ -1803,7 +2103,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Diving_Goggles",
       "image": "Diving_Goggles.png",
-      "description": "Div ing Goggles is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "2",
+      "description": "Diving Goggles is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1825,16 +2127,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Dog_Collar",
       "image": "Dog_Collar.png",
-      "description": "The Dog Collar is a r are item that Scrappyenjoys or can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "0.8",
+      "description": "The Dog Collar is a rare item that Scrappy Scrappy enjoys or can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "1x Dog Collar",
           "workshop_level": "Scrappy I",
           "upgrade": "Scrappy II"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "8×Fabric1×Metal Parts",
       "salvaging_detail": "5×Fabric"
@@ -1851,7 +2155,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Dried-Out_ARC_Resin",
       "image": "Dried-Out_ARC_Resin.png",
-      "description": "Dried-Out ARC Res inis an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "Dried-Out ARC Resin is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -1870,7 +2176,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Duct_Tape",
       "image": "Duct_Tape.png",
-      "description": "Duct Tape is an uncommon item that is used to craft underbarrel mods and can be recycled in to craft ing materials.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.25",
+      "description": "Duct Tape is an uncommon item that is used to craft underbarrel mods and can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "6x Plastic Parts, 1x Duct Tape",
@@ -1888,13 +2201,16 @@
           "produces": "Gunsmith 1"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "3×Fabric",
-      "salvaging_detail": "1×Fabric"
+      "salvaging_detail": "1×Fabric",
+      "recycled_from": [
+        "Angled Grip II (1x)",
+        "Angled Grip III (2x)",
+        "Horizontal Grip (2x)",
+        "Kinetic Converter (2x)",
+        "Lightweight Stock (1x)",
+        "Padded Stock (1x)"
+      ]
     },
     "Durable Cloth": {
       "action": "KEEP",
@@ -1911,13 +2227,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Durable_Cloth",
       "image": "Durable_Cloth.png",
-      "description": "Durable Cloth is an uncommon item that is used to craft medical supplies or can be recycled in to craft ing materials.",
-      "workshop_upgrades": [
-        {
-          "cost": "2x Cracked Bioscanner, 5x Durable Cloth8x Tick Pod",
-          "workshop_level": "Medical Lab 1",
-          "upgrade": "Medical Lab 2"
-        }
+      "can_be_found_in": "MedicalCommercial",
+      "weight": "0.25",
+      "description": "Durable Cloth is an uncommon item that is used to craft medical supplies or can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Crafting",
+        "Recycling"
       ],
       "crafting": [
         {
@@ -1931,16 +2247,26 @@
           "produces": "Medical Lab 2"
         }
       ],
-      "projects": [
-        "25 November 2025"
+      "workshop_upgrades": [
+        {
+          "cost": "2x Cracked Bioscanner, 5x Durable Cloth8x Tick Pod",
+          "workshop_level": "Medical Lab 1",
+          "upgrade": "Medical Lab 2"
+        }
       ],
-      "sources": [
-        "Scavenging",
-        "Crafting",
-        "Recycling"
+      "projects": [
+        {
+          "materials": "35x Durable Cloth, 30x Wires30x Electrical Components, 5x Cooling Fan",
+          "stage_from": "Core System (2/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "6×Fabric",
-      "salvaging_detail": "2×Fabric"
+      "salvaging_detail": "2×Fabric",
+      "recycled_from": [
+        "Ripped Safety Vest (1x)",
+        "Spring Cushion (2x)"
+      ]
     },
     "Electrical Components": {
       "action": "KEEP",
@@ -1958,18 +2284,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Electrical_Components",
       "image": "Electrical_Components.png",
-      "description": "Electrical Components is an uncommon item that is used to craft utility items and can be recycled in to craft ing materials.",
-      "workshop_upgrades": [
-        {
-          "cost": "3x Power Cable, 5x Electrical Components5x Hornet Driver",
-          "workshop_level": "Gear Bench 1",
-          "upgrade": "Gear Bench 2"
-        },
-        {
-          "cost": "2x Damaged Heat Sink, 5x Electrical Components6x Snitch Scanner",
-          "workshop_level": "Utility Station 1",
-          "upgrade": "Utility Station 2"
-        }
+      "can_be_found_in": "Electrical",
+      "weight": "0.5",
+      "description": "Electrical Components is an uncommon item that is used to craft utility items and can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Crafting",
+        "Recycling"
       ],
       "crafting": [
         {
@@ -1983,16 +2304,43 @@
           "produces": "Explosives Station2"
         }
       ],
-      "projects": [
-        "25 November 2025"
+      "workshop_upgrades": [
+        {
+          "cost": "3x Power Cable, 5x Electrical Components5x Hornet Driver",
+          "workshop_level": "Gear Bench 1",
+          "upgrade": "Gear Bench 2"
+        },
+        {
+          "cost": "2x Damaged Heat Sink, 5x Electrical Components6x Snitch Scanner",
+          "workshop_level": "Utility Station 1",
+          "upgrade": "Utility Station 2"
+        }
       ],
-      "sources": [
-        "Scavenging",
-        "Crafting",
-        "Recycling"
+      "projects": [
+        {
+          "materials": "35x Durable Cloth, 30x Wires30x Electrical Components, 5x Cooling Fan",
+          "stage_from": "Core System (2/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "3×Rubber Parts3×Plastic Parts",
-      "salvaging_detail": "3×Plastic Parts"
+      "salvaging_detail": "3×Plastic Parts",
+      "recycled_from": [
+        "Advanced Electrical Components (1x)",
+        "Combat Mk. 2 (1x)",
+        "Fried Motherboard (2x)",
+        "Hornet Driver (2x)",
+        "Looting Mk. 2 (1x)",
+        "Rotary Encoder (2x)",
+        "Sample Cleaner (2x)",
+        "Showstopper (1x)",
+        "Signal Amplifier (2x)",
+        "Snitch Scanner (2x)",
+        "Spotter Relay (2x)",
+        "Surge Shield Recharger (1x)",
+        "Tactical Mk. 2 (1x)",
+        "Wasp Driver (1x)"
+      ]
     },
     "Empty Wine Bottle": {
       "action": "SELL",
@@ -2004,7 +2352,12 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Empty_Wine_Bottle",
       "image": "Empty_Wine_Bottle.png",
-      "description": "The Empty Wine Bottlewasn't always empty.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.2",
+      "description": "The Empty Wine Bottle wasn't always empty.",
+      "sources": [
+        "Scavenging"
+      ],
       "crafting": [
         {
           "ingredients": "1x Agave, 1x Empty Wine Bottle",
@@ -2012,8 +2365,8 @@
           "produces": "Inventory"
         }
       ],
-      "sources": [
-        "Scavenging"
+      "recycled_from": [
+        "Agave Juice (1x)"
       ]
     },
     "Exodus Modules": {
@@ -2031,17 +2384,28 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Exodus_Modules",
       "image": "Exodus_Modules.png",
-      "description": "Exodus Modules are an epic item used to craft items and can be recycled in to craft ing materials.",
-      "projects": [
-        "1 December 2025"
-      ],
+      "can_be_found_in": "Exodus",
+      "weight": "1",
+      "description": "Exodus Modules are an epic item used to craft items and can be recycled into crafting materials.",
       "sources": [
         "Recycling",
         "Scavenging (Many are found on Stella Montis)",
         "Sold byCeleste"
       ],
+      "projects": [
+        {
+          "materials": "30x Battery, 5x Light Bulb20x Sensors, 1x Exodus Modules",
+          "stage_from": "Framework (3/6)",
+          "stage_to": "→"
+        }
+      ],
       "recycling_detail": "2×Processor2×Magnet",
-      "salvaging_detail": "2×Processor"
+      "salvaging_detail": "2×Processor",
+      "recycled_from": [
+        "Geiger Counter (1x)",
+        "Ion Sputter (1x)",
+        "Spectrum Analyzer (1x)"
+      ]
     },
     "Expired Pasta": {
       "action": "SELL",
@@ -2053,7 +2417,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Expired_Pasta",
       "image": "Expired_Pasta.png",
-      "description": "Expired Pastashouldn't be consumed, but can be in a p inch for some heal ing.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.1",
+      "description": "Expired Pasta shouldn't be consumed, but can be in a pinch for some healing.",
       "sources": [
         "Scavenging"
       ]
@@ -2071,7 +2437,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Expired_Respirator",
       "image": "Expired_Respirator.png",
-      "description": "Expired Respira tor is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Medical",
+      "weight": "2",
+      "description": "Expired Respirator is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2092,7 +2460,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Explosive_Compound",
       "image": "Explosive_Compound.png",
-      "description": "Explosive Compound is a r are item used to craft explosives and can be recycled in to craft ing materials.",
+      "can_be_found_in": "IndustrialSecurity",
+      "weight": "0.3",
+      "description": "Explosive Compound is a rare item used to craft explosives and can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Crafting"
+      ],
       "crafting": [
         {
           "ingredients": "2x Oil, 1x Explosive Compound",
@@ -2115,12 +2489,12 @@
           "produces": ""
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Crafting"
-      ],
       "recycling_detail": "2×Crude Explosives",
-      "salvaging_detail": "1×Crude Explosives"
+      "salvaging_detail": "1×Crude Explosives",
+      "recycled_from": [
+        "Deadline (1x)",
+        "Wolfpack (1x)"
+      ]
     },
     "Fabric": {
       "action": "KEEP",
@@ -2134,18 +2508,14 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Fabric",
       "image": "Fabric.png",
-      "description": "Fabric is a common item that can be used to craft various medical items. It can also be used on its own to res tore a small amount of health over time.",
-      "workshop_upgrades": [
-        {
-          "cost": "25x Plastic Parts, 30x Fabric",
-          "workshop_level": "-",
-          "upgrade": "Gear Bench 1"
-        },
-        {
-          "cost": "50x Fabric, 6xARC Alloy",
-          "workshop_level": "-",
-          "upgrade": "Medical Lab 1"
-        }
+      "can_be_found_in": "CommercialResidentialMedical",
+      "weight": "0.1",
+      "description": "Fabric is a common item that can be used to craft various medical items. It can also be used on its own to restore a small amount of health over time.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste",
+        "Scrappy"
       ],
       "crafting": [
         {
@@ -2164,11 +2534,35 @@
           "produces": "Refiner 1"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste",
-        "Scrappy"
+      "workshop_upgrades": [
+        {
+          "cost": "25x Plastic Parts, 30x Fabric",
+          "workshop_level": "-",
+          "upgrade": "Gear Bench 1"
+        },
+        {
+          "cost": "50x Fabric, 6xARC Alloy",
+          "workshop_level": "-",
+          "upgrade": "Medical Lab 1"
+        }
+      ],
+      "recycled_from": [
+        "ARC Thermo Lining (16x)",
+        "Bandage (2x)",
+        "Deflated Football (9x)",
+        "Dog Collar (8x)",
+        "Duct Tape (3x)",
+        "Durable Cloth (6x)",
+        "Expired Respirator (4x)",
+        "Herbal Bandage (5x)",
+        "Polluted Air Filter (6x)",
+        "Rope (5x)",
+        "Ruined Parachute (10x)",
+        "Ruined Tactical Vest (5x)",
+        "Sterilized Bandage (1x)",
+        "Tattered ARC Lining (12x)",
+        "Tattered Clothes (11x)",
+        "Torn Blanket (12x)"
       ]
     },
     "Faded Photograph": {
@@ -2183,7 +2577,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Faded_Photograph",
       "image": "Faded_Photograph.png",
-      "description": "The Faded Pho tographconta ins an image lost to the s ands of time and literal s and. I mean really, who leaves a picture with no glass cover ing it out in Buried City of all places.",
+      "can_be_found_in": "Residential",
+      "weight": "0.3",
+      "description": "The Faded Photograph contains an image lost to the sands of time and literal sand. I mean really, who leaves a picture with no glass covering it out in Buried City Buried City of all places.",
       "sources": [
         "Scavenging"
       ]
@@ -2202,7 +2598,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Fertilizer",
       "image": "Fertilizer.png",
-      "description": "Fertilizer is just special dirt, change my m ind.",
+      "can_be_found_in": "Nature",
+      "weight": "0.4",
+      "description": "Fertilizer is just special dirt, change my mind.",
       "sources": [
         "Scavenging"
       ],
@@ -2221,7 +2619,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Film_Reel",
       "image": "Film_Reel.png",
-      "description": "I remember back when you could watch th ings on Film Reelbut now they've been erased by the sun's rays.",
+      "can_be_found_in": "ResidentialOld World",
+      "weight": "0.2",
+      "description": "I remember back when you could watch things on Film Reel but now they've been erased by the sun's rays.",
       "sources": [
         "Scavenging"
       ]
@@ -2236,7 +2636,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Fine_Wristwatch",
       "image": "Fine_Wristwatch.png",
-      "description": "The Fine Wr istwatch is from a more civilized era.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.2",
+      "description": "The Fine Wristwatch is from a more civilized era.",
       "sources": [
         "Scavenging"
       ]
@@ -2255,7 +2657,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Fireball_Burner",
       "image": "Fireball_Burner.png",
-      "description": "The Fireball Burner is an uncommon item dropped by Fireballsthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.5",
+      "description": "The Fireball Burner is an uncommon item dropped by Fireballs Fireballs that can be recycled into crafting materials.",
       "crafting": [
         {
           "ingredients": "1x Air Freshener, 1x Fireball Burner",
@@ -2264,7 +2668,10 @@
         }
       ],
       "recycling_detail": "1×Chemicals1×ARC Alloy",
-      "salvaging_detail": "1×ARC Alloy"
+      "salvaging_detail": "1×ARC Alloy",
+      "recycled_from": [
+        "Flame Spray (1x)"
+      ]
     },
     "Frequency Modulation Box": {
       "action": "RECYCLE",
@@ -2279,7 +2686,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Frequency_Modulation_Box",
       "image": "Frequency_Modulation_Box.png",
-      "description": "Frequency Modulation Box is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "Frequency Modulation Box is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2301,16 +2710,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Fried_Motherboard",
       "image": "Fried_Motherboard.png",
-      "description": "The Fried Mo therboard is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Technological",
+      "weight": "3",
+      "description": "The Fried Motherboard is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Fried Motherboard, 5x Advanced Electrical Components4x Leaper Pulse Unit",
           "workshop_level": "Utility Station 2",
           "upgrade": "Utility Station 3"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "2×Electrical Components5×Plastic Parts",
       "salvaging_detail": "5×Wires"
@@ -2327,7 +2738,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Frying_Pan",
       "image": "Frying_Pan.png",
-      "description": "The Fry ing Pan is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "2",
+      "description": "The Frying Pan is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2346,7 +2759,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Garlic_Press",
       "image": "Garlic_Press.png",
-      "description": "The Garlic Press is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.8",
+      "description": "The Garlic Press is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2367,7 +2782,15 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Great_Mullein",
       "image": "Great_Mullein.png",
-      "description": "The Great Mulle inis an uncommon item that is used for medical supplies and can be recycled in to Assorted Seeds.",
+      "can_be_found_in": "Nature",
+      "weight": "0.25",
+      "description": "The Great Mullein is an uncommon item that is used for medical supplies and can be recycled into Assorted Seeds Assorted Seeds .",
+      "sources": [
+        "Harvesting",
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "10x Chemicals, 2x Great Mullein",
@@ -2385,12 +2808,6 @@
           "produces": "Inventory"
         }
       ],
-      "sources": [
-        "Harvesting",
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "2×Assorted Seeds",
       "salvaging_detail": "1×Assorted Seeds"
     },
@@ -2407,7 +2824,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Headphones",
       "image": "Headphones.png",
-      "description": "Headphones are a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "2",
+      "description": "Headphones are a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2426,14 +2845,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Heavy_Gun_Parts",
       "image": "Heavy_Gun_Parts.png",
-      "description": "Heavy Gun Parts are used to upgrade, craft, and repairweaponsthat shoo theavy ammo andshotgun ammo.",
-      "crafting": [
-        {
-          "ingredients": "3x Advanced Mechanical Components, 3x Heavy Gun Parts3x Canister",
-          "workshop_level": "→",
-          "produces": "Gunsmith 3"
-        }
-      ],
+      "can_be_found_in": "RaiderSecurity",
+      "weight": "0.5",
+      "description": "Heavy Gun Parts are used to upgrade, craft, and repair weapons weapons that shoot heavy ammo heavy ammo and shotgun ammo shotgun ammo .",
       "sources": [
         "ARC (Rocketeers, etc)",
         "Scavenging",
@@ -2441,8 +2855,29 @@
         "Recycling",
         "Sold byCeleste"
       ],
+      "crafting": [
+        {
+          "ingredients": "3x Advanced Mechanical Components, 3x Heavy Gun Parts3x Canister",
+          "workshop_level": "→",
+          "produces": "Gunsmith 3"
+        }
+      ],
       "recycling_detail": "2×Simple Gun Parts",
-      "salvaging_detail": "1×Simple Gun Parts"
+      "salvaging_detail": "1×Simple Gun Parts",
+      "recycled_from": [
+        "Bettina I (2x)",
+        "Bettina II (2x)",
+        "Bettina III (3x)",
+        "Bettina IV (3x)",
+        "Hullcracker I (2x)",
+        "Hullcracker II (3x)",
+        "Hullcracker III (4x)",
+        "Hullcracker IV (5x)",
+        "Vulcano I (2x)",
+        "Vulcano II (3x)",
+        "Vulcano III (4x)",
+        "Vulcano IV (5x)"
+      ]
     },
     "Hornet Driver": {
       "action": "KEEP",
@@ -2459,16 +2894,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Hornet_Driver",
       "image": "Hornet_Driver.png",
-      "description": "The Hornet Driver is a r are item is dropped by Hornetsthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.75",
+      "description": "The Hornet Driver is a rare item is dropped by Hornets Hornets that can be recycled into crafting materials.",
+      "sources": [
+        "Hornet"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Power Cable, 5x Electrical Components6x Hornet Driver",
           "workshop_level": "Gear Bench 1",
           "upgrade": "Gear Bench 2"
         }
-      ],
-      "sources": [
-        "Hornet"
       ]
     },
     "Household Cleaner": {
@@ -2483,7 +2920,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Household_Cleaner",
       "image": "Household_Cleaner.png",
-      "description": "Household Cleaner is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "0.8",
+      "description": "Household Cleaner is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2505,12 +2944,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Humidifier",
       "image": "Humidifier.png",
-      "description": "The Humidifier is a r are item that can be recycled in to craft ing materials.",
-      "projects": [
-        "22 November 2025"
-      ],
+      "can_be_found_in": "Residential",
+      "weight": "2",
+      "description": "The Humidifier is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
+      ],
+      "projects": [
+        {
+          "materials": "5x Humidifier, 5x Advanced Electrical Components3x Magnetic Accelerator, 3x Leaper Pulse Unit",
+          "stage_from": "Framework (3/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "2×Canister2×Wires",
       "salvaging_detail": "2×Canister"
@@ -2527,7 +2972,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ice_Cream_Scooper",
       "image": "Ice_Cream_Scooper.png",
-      "description": "The Ice Cream Scooper is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Commercial",
+      "weight": "0.8",
+      "description": "The Ice Cream Scooper is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2546,7 +2993,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Impure_ARC_Coolant",
       "image": "Impure_ARC_Coolant.png",
-      "description": "Impure ARC Coolant is an uncommon item that can found on destroyed ARCand can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "Impure ARC Coolant is an uncommon item that can found on destroyed ARC ARC and can be recycled into crafting materials.",
       "sources": [
         "ARC"
       ],
@@ -2568,16 +3017,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Industrial_Battery",
       "image": "Industrial_Battery.png",
-      "description": "The Industrial Battery is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Industrial",
+      "weight": "2",
+      "description": "The Industrial Battery is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Industrial Battery, 5x Advanced Electrical Components6x Bastion Cell",
           "workshop_level": "Gear Bench 2",
           "upgrade": "Gear Bench 3"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "7×Chemicals2×Battery",
       "salvaging_detail": "2×Battery"
@@ -2595,7 +3046,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Industrial_Charger",
       "image": "Industrial_Charger.png",
-      "description": "The Industrial Charger is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Industrial",
+      "weight": "2",
+      "description": "The Industrial Charger is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2615,7 +3068,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Industrial_Magnet",
       "image": "Industrial_Magnet.png",
-      "description": "The Industrial Magnet is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Industrial",
+      "weight": "2",
+      "description": "The Industrial Magnet is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2635,7 +3090,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ion_Sputter",
       "image": "Ion_Sputter.png",
-      "description": "The Ion Sputter is an epic item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "The Ion Sputter is an epic item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -2657,16 +3114,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Laboratory_Reagents",
       "image": "Laboratory_Reagents.png",
-      "description": "Labora tory Reagents are a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Medical",
+      "weight": "3",
+      "description": "Laboratory Reagents are a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Laboratory Reagents, 5x Explosive Compound3x Rocketeer Driver",
           "workshop_level": "Explosives Bench 2",
           "upgrade": "Explosives Bench 3"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "16×Chemicals3×Crude Explosives",
       "salvaging_detail": "3×Crude Explosives"
@@ -2681,7 +3140,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Lance%27s_Mixtape_(5th_Edition)",
       "image": "Lance_s_Mixtape__5th_Edition_.png",
-      "description": "Lance's Mixtape (5th Edition)has some great tunes, o ther Raiders are envious of those who f ind them.",
+      "can_be_found_in": "ResidentialCommercial",
+      "weight": "0.2",
+      "description": "Lance's Mixtape (5th Edition) has some great tunes, other Raiders are envious of those who find them.",
       "sources": [
         "Scavenging"
       ]
@@ -2700,13 +3161,11 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Lemon",
       "image": "Lemon.png",
-      "description": "ALemoncan be consumed for a small burst of energy.",
-      "workshop_upgrades": [
-        {
-          "cost": "3x Lemon, 3x Apricot",
-          "workshop_level": "Scrappy II",
-          "upgrade": "Scrappy III"
-        }
+      "can_be_found_in": "Nature",
+      "weight": "0.2",
+      "description": "A Lemon can be consumed for a small burst of energy.",
+      "sources": [
+        "Scavenging"
       ],
       "crafting": [
         {
@@ -2715,8 +3174,12 @@
           "produces": "Inventory"
         }
       ],
-      "sources": [
-        "Scavenging"
+      "workshop_upgrades": [
+        {
+          "cost": "3x Lemon, 3x Apricot",
+          "workshop_level": "Scrappy II",
+          "upgrade": "Scrappy III"
+        }
       ]
     },
     "Leaper Pulse Unit": {
@@ -2735,7 +3198,12 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Leaper_Pulse_Unit",
       "image": "Leaper_Pulse_Unit.png",
-      "description": "The Leaper Pulse Unit is an epic item found on Leapersthat can be thrown to create a small violent s ingularity or recycled for craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1.0",
+      "description": "The Leaper Pulse Unit is an epic item found on Leapers Leapers that can be thrown to create a small violent singularity or recycled for crafting materials.",
+      "sources": [
+        "Leaper"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Fried Motherboard, 5x Advanced Electrical Components4x Leaper Pulse Unit",
@@ -2744,10 +3212,11 @@
         }
       ],
       "projects": [
-        "22 November 2025"
-      ],
-      "sources": [
-        "Leaper"
+        {
+          "materials": "5x Humidifier, 5x Advanced Electrical Components3x Magnetic Accelerator, 3x Leaper Pulse Unit",
+          "stage_from": "Outitting (4/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "3×ARC Alloy2×Advanced Mechanical Components",
       "salvaging_detail": "2×Mechanical Components"
@@ -2764,13 +3233,19 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Light_Bulb",
       "image": "Light_Bulb.png",
-      "description": "People sure love to see whilst underground, good th ing we get illum ination from these Light Bulbs.",
-      "projects": [
-        "16 November 2025"
-      ],
+      "can_be_found_in": "Electrical",
+      "weight": "0.2",
+      "description": "People sure love to see whilst underground, good thing we get illumination from these Light Bulbs .",
       "sources": [
         "Scavenging",
         "Car Hood"
+      ],
+      "projects": [
+        {
+          "materials": "30x Battery, 5x Light Bulb20x Sensors, 1x Exodus Modules",
+          "stage_from": "Framework (3/6)",
+          "stage_to": "→"
+        }
       ]
     },
     "Light Gun Parts": {
@@ -2785,7 +3260,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Light_Gun_Parts",
       "image": "Light_Gun_Parts.png",
-      "description": "Light Gun Parts are used to upgrade, craft, and repair weapons that uselight ammo.",
+      "can_be_found_in": "SecurityRaider",
+      "weight": "0.3",
+      "description": "Light Gun Parts are used to upgrade, craft, and repair weapons that use light ammo light ammo .",
       "sources": [
         "Scavenging",
         "Crafting",
@@ -2793,7 +3270,13 @@
         "Sold byCeleste"
       ],
       "recycling_detail": "2×Simple Gun Parts",
-      "salvaging_detail": "1×Simple Gun Parts"
+      "salvaging_detail": "1×Simple Gun Parts",
+      "recycled_from": [
+        "Bobcat I (2x)",
+        "Bobcat II (3x)",
+        "Bobcat III (4x)",
+        "Bobcat IV (4x)"
+      ]
     },
     "Magnet": {
       "action": "RECYCLE",
@@ -2807,7 +3290,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Magnet",
       "image": "Magnet.png",
-      "description": "The Magnet is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "0.25",
+      "description": "The Magnet is an uncommon item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "2x Crude Explosives, 1x Magnet",
@@ -2825,12 +3314,19 @@
           "produces": "Gear Bench 2"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "3×Metal Parts",
-      "salvaging_detail": "2×Metal Parts"
+      "salvaging_detail": "2×Metal Parts",
+      "recycled_from": [
+        "Combat Mk. 2 (1x)",
+        "Exodus Modules (2x)",
+        "Industrial Magnet (2x)",
+        "Looting Mk. 2 (1x)",
+        "Microscope (3x)",
+        "Ripped Safety Vest (1x)",
+        "Ruined Tactical Vest (1x)",
+        "Snap Blast Grenade (1x)",
+        "Tactical Mk. 2 (1x)"
+      ]
     },
     "Magnetic Accelerator": {
       "action": "KEEP",
@@ -2847,7 +3343,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Magnetic_Accelerator",
       "image": "Magnetic_Accelerator.png",
-      "description": "The Magnetic Accelera tor is an epic item used to craft advanced weapons and can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.0",
+      "description": "The Magnetic Accelerator is an epic item used to craft advanced weapons and can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Crafting",
+        "Recycling"
+      ],
       "crafting": [
         {
           "ingredients": "1x Magnetic Accelerator, 3x Heavy Gun Parts1x Exodus Modules",
@@ -2865,13 +3368,16 @@
           "produces": "Gunsmith 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Crafting",
-        "Recycling"
-      ],
       "recycling_detail": "1×ARC Motion Core1×Advanced Mechanical Components",
-      "salvaging_detail": "1×Advanced Mechanical Components"
+      "salvaging_detail": "1×Advanced Mechanical Components",
+      "recycled_from": [
+        "Aphelion (2x)",
+        "Equalizer (2x)",
+        "Jupiter (2x)",
+        "Magnetron (1x)",
+        "Matriarch Reactor (1x)",
+        "Queen Reactor (1x)"
+      ]
     },
     "Magnetron": {
       "action": "KEEP",
@@ -2888,7 +3394,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Magnetron",
       "image": "Magnetron.png",
-      "description": "Magnetron is an epic item that can be recycled in to craft ing materials",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "Magnetron is an epic item that can be recycled into crafting materials",
       "sources": [
         "Scavenging"
       ],
@@ -2908,16 +3416,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Matriarch_Reactor",
       "image": "Matriarch_Reactor.png",
-      "description": "The Matriarch Reac tor is a legendary item only acquired by defeat ing the Matriarchthat can be recycled in to craft ing materials or used to craft Aphelion.",
+      "can_be_found_in": "ARC",
+      "weight": "10.0",
+      "description": "The Matriarch Reactor is a legendary item only acquired by defeating the Matriarch Matriarch that can be recycled into crafting materials or used to craft Aphelion Aphelion .",
+      "sources": [
+        "Matriarch"
+      ],
       "crafting": [
         {
           "ingredients": "?",
           "workshop_level": "→",
           "produces": "?"
         }
-      ],
-      "sources": [
-        "Matriarch"
       ],
       "recycling_detail": "1×Power Rod1×Magnetic Accelerator",
       "salvaging_detail": "1×Power Rod"
@@ -2937,13 +3447,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Mechanical_Components",
       "image": "Mechanical_Components.png",
-      "description": "Mechanical Components are an uncommon item used to craft, repair, and upgrade weapons that can also be recycled in to craft ing materials.",
-      "workshop_upgrades": [
-        {
-          "cost": "3x Rusted Tools, 5x Mechanical Components8x Wasp Driver",
-          "workshop_level": "Gunsmith 1",
-          "upgrade": "Gunsmith 2"
-        }
+      "can_be_found_in": "Mechanical",
+      "weight": "0.8",
+      "description": "Mechanical Components are an uncommon item used to craft, repair, and upgrade weapons that can also be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Crafting",
+        "Recycling"
       ],
       "crafting": [
         {
@@ -3082,13 +3592,53 @@
           "produces": "Gunsmith 1"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Crafting",
-        "Recycling"
+      "workshop_upgrades": [
+        {
+          "cost": "3x Rusted Tools, 5x Mechanical Components8x Wasp Driver",
+          "workshop_level": "Gunsmith 1",
+          "upgrade": "Gunsmith 2"
+        }
       ],
       "recycling_detail": "2×Rubber Parts3×Metal Parts",
-      "salvaging_detail": "3×Metal Parts"
+      "salvaging_detail": "3×Metal Parts",
+      "recycled_from": [
+        "Advanced Mechanical Components (1x)",
+        "Angled Grip II (1x)",
+        "Anvil I (2x)",
+        "Anvil II (3x)",
+        "Anvil III (4x)",
+        "Anvil IV (5x)",
+        "Arpeggio I (2x)",
+        "Arpeggio II (3x)",
+        "Arpeggio III (4x)",
+        "Arpeggio IV (5x)",
+        "Burletta I (1x)",
+        "Burletta II (2x)",
+        "Burletta III (3x)",
+        "Burletta IV (4x)",
+        "Compensator II (1x)",
+        "Extended Light Mag II (1x)",
+        "Extended Medium Mag II (1x)",
+        "Extended Shotgun Mag II (1x)",
+        "Ferro IV (1x)",
+        "Hairpin IV (1x)",
+        "Il Toro I (2x)",
+        "Il Toro II (3x)",
+        "Il Toro III (4x)",
+        "Il Toro IV (5x)",
+        "Kettle IV (2x)",
+        "Mod Components (1x)",
+        "Motor (2x)",
+        "Muzzle Brake II (1x)",
+        "Rattler III (3x)",
+        "Rattler IV (4x)",
+        "Rusted Gear (2x)",
+        "Sentinel Firing Core (3x)",
+        "Shredder Gyro (3x)",
+        "Stitcher IV (2x)",
+        "Surveyor Vault (2x)",
+        "Turbo Pump (1x)"
+      ]
     },
     "Medium Gun Parts": {
       "action": "RECYCLE",
@@ -3102,7 +3652,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Medium_Gun_Parts",
       "image": "Medium_Gun_Parts.png",
-      "description": "Medium Gun Parts are used to upgrade, craft, and repair weapons that usemedium ammo.",
+      "can_be_found_in": "RaiderSecurity",
+      "weight": "0.4",
+      "description": "Medium Gun Parts are used to upgrade, craft, and repair weapons that use medium ammo medium ammo .",
       "sources": [
         "ARC (Bastions,Bombardiers, etc)",
         "Scavenging",
@@ -3111,7 +3663,29 @@
         "Sold byCeleste"
       ],
       "recycling_detail": "2×Simple Gun Parts",
-      "salvaging_detail": "1×Simple Gun Parts"
+      "salvaging_detail": "1×Simple Gun Parts",
+      "recycled_from": [
+        "Osprey I (2x)",
+        "Osprey II (2x)",
+        "Osprey III (3x)",
+        "Osprey IV (3x)",
+        "Renegade I (2x)",
+        "Renegade II (2x)",
+        "Renegade III (3x)",
+        "Renegade IV (3x)",
+        "Tempest I (2x)",
+        "Tempest II (3x)",
+        "Tempest III (4x)",
+        "Tempest IV (4x)",
+        "Torrente I (2x)",
+        "Torrente II (2x)",
+        "Torrente III (3x)",
+        "Torrente IV (3x)",
+        "Venator I (2x)",
+        "Venator II (2x)",
+        "Venator III (3x)",
+        "Venator IV (3x)"
+      ]
     },
     "Metal Brackets": {
       "action": "RECYCLE",
@@ -3125,7 +3699,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Metal_Brackets",
       "image": "Metal_Brackets.png",
-      "description": "Metal Bracketsan uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "MechanicalElectrical",
+      "weight": "0.8",
+      "description": "Metal Brackets an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -3145,18 +3721,14 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Metal_Parts",
       "image": "Metal_Parts.png",
-      "description": "Metal Partsa common item used to craft all sorts of ref ined materials, weapons, and gadgets your Raider needs to survive while Topside.",
-      "workshop_upgrades": [
-        {
-          "cost": "20× Metal Parts30×Rubber Parts",
-          "workshop_level": "-",
-          "upgrade": "Gunsmith 1"
-        },
-        {
-          "cost": "60× Metal Parts5×ARC Powercell",
-          "workshop_level": "-",
-          "upgrade": "Ref iner 1"
-        }
+      "can_be_found_in": "MechanicalIndustrialElectricalTechnological",
+      "weight": "0.1",
+      "description": "Metal Parts a common item used to craft all sorts of refined materials, weapons, and gadgets your Raider needs to survive while Topside Topside .",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste",
+        "Scrappy"
       ],
       "crafting": [
         {
@@ -3255,17 +3827,79 @@
           "produces": "Utility Station 2"
         }
       ],
-      "projects": [
-        "25 November 2025"
+      "workshop_upgrades": [
+        {
+          "cost": "20× Metal Parts30×Rubber Parts",
+          "workshop_level": "-",
+          "upgrade": "Gunsmith 1"
+        },
+        {
+          "cost": "60× Metal Parts5×ARC Powercell",
+          "workshop_level": "-",
+          "upgrade": "Refiner 1"
+        }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste",
-        "Scrappy"
+      "projects": [
+        {
+          "materials": "150x Metal Parts, 200x Rubber Parts80xARC Alloy15x Steel Spring",
+          "stage_from": "Foundation (1/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "2×Metal Parts",
-      "salvaging_detail": "1×Metal Parts"
+      "salvaging_detail": "1×Metal Parts",
+      "recycled_from": [
+        "ARC Alloy (2x)",
+        "ARC Performance Steel (12x)",
+        "Barricade Kit (4x)",
+        "Battery (2x)",
+        "Bicycle Pump (10x)",
+        "Blaze Grenade (4x)",
+        "Broken Flashlight (6x)",
+        "Candle Holder (8x)",
+        "Compensator I (5x)",
+        "Damaged Heat Sink (6x)",
+        "Dog Collar (1x)",
+        "Door Blocker (2x)",
+        "Ferro I (2x)",
+        "Ferro II (4x)",
+        "Ferro III (6x)",
+        "Frying Pan (8x)",
+        "Garlic Press (12x)",
+        "Hairpin I (2x)",
+        "Hairpin II (4x)",
+        "Hairpin III (6x)",
+        "Ice Cream Scooper (7x)",
+        "Industrial Charger (5x)",
+        "Industrial Magnet (4x)",
+        "Kettle I (3x)",
+        "Kettle II (6x)",
+        "Kettle III (12x)",
+        "Magnet (3x)",
+        "Mechanical Components (3x)",
+        "Metal Brackets (8x)",
+        "Muzzle Brake I (5x)",
+        "Number Plate (3x)",
+        "Rattler I (8x)",
+        "Rattler II (12x)",
+        "Rocket Thruster (6x)",
+        "Ruined Baton (6x)",
+        "Ruined Handcuffs (8x)",
+        "Rusted Bolts (8x)",
+        "Rusted Gear (4x)",
+        "Rusted Tools (8x)",
+        "Rusty ARC Steel (8x)",
+        "Sensors (1x)",
+        "Shrapnel Grenade (1x)",
+        "Simple Gun Parts (2x)",
+        "Steel Spring (3x)",
+        "Stitcher I (3x)",
+        "Stitcher II (6x)",
+        "Stitcher III (12x)",
+        "Unusable Weapon (4x)",
+        "Water Pump (4x)",
+        "Zipline (1x)"
+      ]
     },
     "Microscope": {
       "action": "RECYCLE",
@@ -3280,7 +3914,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Microscope",
       "image": "Microscope.png",
-      "description": "The Microscope is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "The Microscope is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -3300,7 +3936,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Mini_Centrifuge",
       "image": "Mini_Centrifuge.png",
-      "description": "The Mini Centrifuge is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "3.0",
+      "description": "The Mini Centrifuge is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -3320,7 +3958,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Mod_Components",
       "image": "Mod_Components.png",
-      "description": "Mod Components are a r are item that is used to craftweapon modsor can be recycled in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "1",
+      "description": "Mod Components are a rare item that is used to craft weapon mods weapon mods or can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Crafting"
+      ],
       "crafting": [
         {
           "ingredients": "2x Mod Components, 5x Duct Tape",
@@ -3413,13 +4058,22 @@
           "produces": "Gunsmith 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Crafting"
-      ],
       "recycling_detail": "1×Steel Spring1×Mechanical Components",
-      "salvaging_detail": "1×Mechanical Components"
+      "salvaging_detail": "1×Mechanical Components",
+      "recycled_from": [
+        "Angled Grip III (1x)",
+        "Anvil Splitter (1x)",
+        "Compensator III (1x)",
+        "Extended Barrel (1x)",
+        "Extended Light Mag III (1x)",
+        "Extended Medium Mag III (1x)",
+        "Extended Shotgun Mag III (1x)",
+        "Horizontal Grip (1x)",
+        "Kinetic Converter (1x)",
+        "Lightweight Stock (1x)",
+        "Muzzle Brake III (1x)",
+        "Padded Stock (1x)"
+      ]
     },
     "Moss": {
       "action": "RECYCLE",
@@ -3433,7 +4087,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Moss",
       "image": "Moss.png",
-      "description": "Moss is a r are item that can be recycled in to craft ing materials or consumed for some health in a p inch.",
+      "can_be_found_in": "Nature",
+      "weight": "0.3",
+      "description": "Moss is a rare item that can be recycled into crafting materials or consumed for some health in a pinch.",
+      "sources": [
+        "Scavenging",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "9x Plastic Parts, 1x Moss",
@@ -3446,9 +4106,8 @@
           "produces": "Inventory"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Sold byCeleste"
+      "recycled_from": [
+        "Defibrillator (1x)"
       ]
     },
     "Motor": {
@@ -3466,16 +4125,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Motor",
       "image": "Motor.png",
-      "description": "The Mo tor is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Mechanical",
+      "weight": "3.0",
+      "description": "The Motor is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Motor, 10xARC Circuitry6x Bombardier Cell",
           "workshop_level": "Refiner 2",
-          "upgrade": "Ref iner 3"
+          "upgrade": "Refiner 3"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ]
     },
     "Mushroom": {
@@ -3490,16 +4151,18 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Mushroom",
       "image": "Mushroom.png",
-      "description": "AMushroomcan be consumed by your Raider to ga in health in a p inch. In the nature they can be found attached to trees, grow ing on pipes, st anding on their own, or in Wicker Baskets.",
+      "can_be_found_in": "Nature",
+      "weight": "0.2",
+      "description": "A Mushroom can be consumed by your Raider to gain health in a pinch. In the nature they can be found attached to trees, growing on pipes, standing on their own, or in Wicker Baskets Wicker Baskets .",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "12x Mushroom, 12x Apricot3x Very Comfortable Pillow",
           "workshop_level": "Scrappy IV",
           "upgrade": "Scrappy V"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ]
     },
     "Music Album": {
@@ -3512,7 +4175,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Music_Album",
       "image": "Music_Album.png",
-      "description": "The Music Album is a must have when relax ing after a stressful day Topside.",
+      "can_be_found_in": "ResidentialCommercial",
+      "weight": "0.3",
+      "description": "The Music Album is a must have when relaxing after a stressful day Topside Topside .",
       "sources": [
         "Scavenging"
       ]
@@ -3527,7 +4192,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Music_Box",
       "image": "Music_Box.png",
-      "description": "Sometimes the Music Boxstill works, even after all these years.",
+      "can_be_found_in": "Old WorldCommercialResidential",
+      "weight": "0.4",
+      "description": "Sometimes the Music Box still works, even after all these years.",
       "sources": [
         "Scavenging"
       ]
@@ -3544,7 +4211,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Number_Plate",
       "image": "Number_Plate.png",
-      "description": "The Number Plate is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Mechanical",
+      "weight": "0.8",
+      "description": "The Number Plate is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -3563,7 +4232,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Oil",
       "image": "Oil.png",
-      "description": "Oil is an uncommon item used for explosives that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Mechanical",
+      "weight": "0.25",
+      "description": "Oil is an uncommon item used for explosives that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "2x Oil, 1x Explosive Compound",
@@ -3581,13 +4257,19 @@
           "produces": "Gunsmith 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "3×Chemicals",
-      "salvaging_detail": "1×Chemicals"
+      "salvaging_detail": "1×Chemicals",
+      "recycled_from": [
+        "Blaze Grenade (2x)",
+        "Coolant (2x)",
+        "Explosive Mine (2x)",
+        "Heavy Fuze Grenade (1x)",
+        "Motor (2x)",
+        "Polluted Air Filter (2x)",
+        "Synthesized Fuel (1x)",
+        "Turbo Pump (3x)",
+        "Water Pump (2x)"
+      ]
     },
     "Olives": {
       "action": "KEEP",
@@ -3603,19 +4285,21 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Olives",
       "image": "Olives.png",
-      "description": "Olivescan be consumed for a small burst of energy.",
+      "can_be_found_in": "Nature",
+      "weight": "0.2",
+      "description": "Olives can be consumed for a small burst of energy.",
+      "sources": [
+        "ScavengingOlive TreeMostly found in Olive Grove,Blue GateLush Bloomsbasket",
+        "Olive TreeMostly found in Olive Grove,Blue Gate",
+        "Mostly found in Olive Grove,Blue Gate",
+        "Lush Bloomsbasket"
+      ],
       "workshop_upgrades": [
         {
           "cost": "6x Prickly Pear, 6x Olives1x Cat Bed",
           "workshop_level": "Scrappy III",
           "upgrade": "Scrappy IV"
         }
-      ],
-      "sources": [
-        "ScavengingOlive TreeMostly found in Olive Grove,Blue GateLush Bloomsbasket",
-        "Olive TreeMostly found in Olive Grove,Blue Gate",
-        "Mostly found in Olive Grove,Blue Gate",
-        "Lush Bloomsbasket"
       ]
     },
     "Painted Box": {
@@ -3628,7 +4312,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Painted_Box",
       "image": "Painted_Box.png",
-      "description": "No idea why anyone wants a Pa inted Box of all th ings, but they're pay ing me for it so I don't c are.",
+      "can_be_found_in": "Old World",
+      "weight": "0.3",
+      "description": "No idea why anyone wants a Painted Box of all things, but they're paying me for it so I don't care.",
       "sources": [
         "Scavenging"
       ]
@@ -3643,7 +4329,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Patrol_Car_Key",
       "image": "Patrol_Car_Key.png",
-      "description": "Opens a locked door to ga in access to the inside of the patrol car in Blue Gate. The patrol car is on the Nor thern side of the underground complex."
+      "weight": "0.25",
+      "description": "Opens a locked door to gain access to the inside of the patrol car in Blue Gate Blue Gate . The patrol car is on the Northern side of the underground complex."
     },
     "Plastic Parts": {
       "action": "KEEP",
@@ -3657,18 +4344,14 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Plastic_Parts",
       "image": "Plastic_Parts.png",
-      "description": "Plastic Parts are a common item used to craft a wide range of items you'll use while Topside.",
-      "workshop_upgrades": [
-        {
-          "cost": "25x Plastic Parts, 30x Fabric",
-          "workshop_level": "-",
-          "upgrade": "Gear Bench 1"
-        },
-        {
-          "cost": "50x Plastic Parts, 6xARC Alloy",
-          "workshop_level": "-",
-          "upgrade": "Utility Bench 1"
-        }
+      "can_be_found_in": "TechnologicalCommercialResidential",
+      "weight": "0.1",
+      "description": "Plastic Parts are a common item used to craft a wide range of items you'll use while Topside Topside .",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste",
+        "Scrappy"
       ],
       "crafting": [
         {
@@ -3747,11 +4430,51 @@
           "produces": "Gunsmith 1"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste",
-        "Scrappy"
+      "workshop_upgrades": [
+        {
+          "cost": "25x Plastic Parts, 30x Fabric",
+          "workshop_level": "-",
+          "upgrade": "Gear Bench 1"
+        },
+        {
+          "cost": "50x Plastic Parts, 6xARC Alloy",
+          "workshop_level": "-",
+          "upgrade": "Utility Bench 1"
+        }
+      ],
+      "recycled_from": [
+        "Adrenaline Shot (1x)",
+        "Alarm Clock (6x)",
+        "Angled Grip I (6x)",
+        "ARC Synthetic Resin (14x)",
+        "Binoculars (4x)",
+        "Camera Lens (8x)",
+        "Canister (3x)",
+        "Combat Mk. 1 (3x)",
+        "Cooling Fan (14x)",
+        "Crumpled Plastic Bottle (4x)",
+        "Defibrillator (1x)",
+        "Dried-Out ARC Resin (9x)",
+        "Electrical Components (3x)",
+        "Extended Medium Mag I (6x)",
+        "Extended Shotgun Mag I (6x)",
+        "Fried Motherboard (5x)",
+        "Jolt Mine (2x)",
+        "Li'l Smoke Grenade (1x)",
+        "Light Impact Grenade (1x)",
+        "Light Shield (4x)",
+        "Looting Mk. 1 (3x)",
+        "Processor (1x)",
+        "Recorder (10x)",
+        "Remote Control (7x)",
+        "Ruined Augment (2x)",
+        "Ruined Riot Shield (10x)",
+        "Speaker Component (2x)",
+        "Synthesized Fuel (1x)",
+        "Syringe (2x)",
+        "Tactical Mk. 1 (3x)",
+        "Tagging Grenade (1x)",
+        "Toaster (5x)"
       ]
     },
     "Playing Cards": {
@@ -3764,7 +4487,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Playing_Cards",
       "image": "Playing_Cards.png",
-      "description": "These Play ing Cardsa great to for Go-Fish!",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.2",
+      "description": "These Playing Cards a great to for Go-Fish!",
       "sources": [
         "Scavenging"
       ]
@@ -3782,7 +4507,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Polluted_Air_Filter",
       "image": "Polluted_Air_Filter.png",
-      "description": "The Polluted Air Filter is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Industrial",
+      "weight": "0.8",
+      "description": "The Polluted Air Filter is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -3804,16 +4531,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Pop_Trigger",
       "image": "Pop_Trigger.png",
-      "description": "The Pop Trigger is a common item acquired from Popsthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.5",
+      "description": "The Pop Trigger is a common item acquired from Pops Pops that can be recycled into crafting materials.",
+      "sources": [
+        "Pop"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Synthesized Fuel, 5x Crude Explosives5x Pop Trigger",
           "workshop_level": "Explosives Station 1",
           "upgrade": "Explosives Station 2"
         }
-      ],
-      "sources": [
-        "Pop"
       ],
       "recycling_detail": "1×Crude Explosives1×ARC Alloy",
       "salvaging_detail": "1×Crude Explosives"
@@ -3831,7 +4560,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Portable_TV",
       "image": "Portable_TV.png",
-      "description": "The Portable TVis a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "3",
+      "description": "The Portable TV is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -3848,7 +4579,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Poster_Of_Natural_Wonders",
       "image": "Poster_of_Natural_Wonders.png",
-      "description": "Star ing at a Poster Of Natural Wondersmakes you w ish the ARC never came.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.3",
+      "description": "Staring at a Poster Of Natural Wonders makes you wish the ARC never came.",
       "sources": [
         "Scavenging"
       ]
@@ -3863,7 +4596,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Pottery",
       "image": "Pottery.png",
-      "description": "Careful with the Pottery, it's very fragile.",
+      "can_be_found_in": "Old WorldResidential",
+      "weight": "0.3",
+      "description": "Careful with the Pottery , it's very fragile.",
       "sources": [
         "Scavenging"
       ]
@@ -3881,7 +4616,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Power_Bank",
       "image": "Power_Bank.png",
-      "description": "The Power Bank is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ElectricalCommercialResidential",
+      "weight": "2",
+      "description": "The Power Bank is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -3902,16 +4639,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Power_Cable",
       "image": "Power_Cable.png",
-      "description": "The Power Cable is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ElectricalCommercialResidential",
+      "weight": "2",
+      "description": "The Power Cable is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Power Cable, 5x Electrical Components5x Hornet Driver",
           "workshop_level": "Gear Bench 1",
           "upgrade": "Gear Bench 2"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "4×Wires",
       "salvaging_detail": "3×Wires"
@@ -3929,7 +4668,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Power_Rod",
       "image": "Power_Rod.png",
-      "description": "The Power Rod is an epic item used in craft ing that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1",
+      "description": "The Power Rod is an epic item used in crafting that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Crafting",
+        "Recycling"
+      ],
       "crafting": [
         {
           "ingredients": "1x Power Rod, 1x Voltage Converter",
@@ -3937,13 +4683,13 @@
           "produces": "Gear Bench 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Crafting",
-        "Recycling"
-      ],
       "recycling_detail": "1×ARC Circuitry1×Advanced Electrical Components",
-      "salvaging_detail": "1×Advanced Electrical Components"
+      "salvaging_detail": "1×Advanced Electrical Components",
+      "recycled_from": [
+        "Matriarch Reactor (1x)",
+        "Queen Reactor (1x)",
+        "Snap Hook (1x)"
+      ]
     },
     "Prickly Pear": {
       "action": "KEEP",
@@ -3959,13 +4705,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Prickly_Pear",
       "image": "Prickly_Pear.png",
-      "description": "The Prickly Pearcan be consumed for a small burst of energy.",
-      "workshop_upgrades": [
-        {
-          "cost": "6x Prickly Pear, 6x Olives1x Cat Bed",
-          "workshop_level": "Scrappy III",
-          "upgrade": "Scrappy IV"
-        }
+      "can_be_found_in": "Nature",
+      "weight": "0.2",
+      "description": "The Prickly Pear can be consumed for a small burst of energy.",
+      "sources": [
+        "ScavengingHarvested from cactiLush Bloomsbasket",
+        "Harvested from cacti",
+        "Lush Bloomsbasket"
       ],
       "crafting": [
         {
@@ -3974,10 +4720,12 @@
           "produces": "Inventory"
         }
       ],
-      "sources": [
-        "ScavengingHarvested from cactiLush Bloomsbasket",
-        "Harvested from cacti",
-        "Lush Bloomsbasket"
+      "workshop_upgrades": [
+        {
+          "cost": "6x Prickly Pear, 6x Olives1x Cat Bed",
+          "workshop_level": "Scrappy III",
+          "upgrade": "Scrappy IV"
+        }
       ]
     },
     "Processor": {
@@ -3993,7 +4741,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Processor",
       "image": "Processor.png",
-      "description": "The Processor is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Technological",
+      "weight": "0.2",
+      "description": "The Processor is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "2x Advanced Electrical Components, 3x Processor",
@@ -4011,13 +4766,24 @@
           "produces": "Explosives Station 2"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "1×Plastic Parts1×Wires",
-      "salvaging_detail": "2×Plastic Parts"
+      "salvaging_detail": "2×Plastic Parts",
+      "recycled_from": [
+        "Alarm Clock (1x)",
+        "Anvil Splitter (1x)",
+        "Broken Guidance System (4x)",
+        "Combat Mk. 3 (Aggressive) (1x)",
+        "Combat Mk. 3 (Flanking) (1x)",
+        "Exodus Modules (2x)",
+        "Looting Mk. 3 (Cautious) (1x)",
+        "Looting Mk. 3 (Survivor) (1x)",
+        "Projector (1x)",
+        "Rotary Encoder (2x)",
+        "Tactical Mk. 3 (Defensive) (1x)",
+        "Tactical Mk. 3 (Healing) (1x)",
+        "Telemetry Transceiver (1x)",
+        "Trigger 'Nade (1x)"
+      ]
     },
     "Projector": {
       "action": "RECYCLE",
@@ -4032,7 +4798,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Projector",
       "image": "Projector.png",
-      "description": "The Projec tor is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "2",
+      "description": "The Projector is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4052,7 +4820,12 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Queen_Reactor",
       "image": "Queen_Reactor.png",
-      "description": "The Queen Reac tor is a legendary item acquired by defeat ing The Queenthat can be recycled in to craft ing materials. Note that it is possible to obta in without kill ing The Queenas the reac tors can spawn in destroyed leg armor segments.",
+      "can_be_found_in": "ARC",
+      "weight": "10.0",
+      "description": "The Queen Reactor is a legendary item acquired by defeating The Queen The Queen that can be recycled into crafting materials. Note that it is possible to obtain without killing The Queen The Queen as the reactors can spawn in destroyed leg armor segments.",
+      "sources": [
+        "The Queen"
+      ],
       "crafting": [
         {
           "ingredients": "3x Magnetic Accelerator, 3x Complex Gun Parts1x Queen Reactor",
@@ -4064,9 +4837,6 @@
           "workshop_level": "→",
           "produces": "Gunsmith 3"
         }
-      ],
-      "sources": [
-        "The Queen"
       ],
       "recycling_detail": "1×Power Rod1×Magnetic Accelerator",
       "salvaging_detail": "1×Power Rod"
@@ -4084,7 +4854,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Radio",
       "image": "Radio.png",
-      "description": "The Radio is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "2",
+      "description": "The Radio is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4104,7 +4876,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Radio_Relay",
       "image": "Radio_Relay.png",
-      "description": "Radio Relay is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "Radio Relay is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4121,7 +4895,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Raider_Hatch_Key",
       "image": "Raider_Hatch_Key.png",
-      "description": "ARaider Hatch Key is a r are item used to open Raider Hatches to get out of sticky situations Topside.",
+      "weight": "0.01",
+      "description": "A Raider Hatch Key is a rare item used to open Raider Hatches Raider Hatches to get out of sticky situations Topside Topside .",
       "sources": [
         "Scavenging",
         "Crafting",
@@ -4138,7 +4913,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Red_Coral_Jewelry",
       "image": "Red_Coral_Jewelry.png",
-      "description": "Red Coral Jewelry is very valuable and sh iny, it def initely makes the o ther Raiders jealous on the dance floor.",
+      "can_be_found_in": "Old WorldCommercialResidential",
+      "weight": "0.3",
+      "description": "Red Coral Jewelry is very valuable and shiny, it definitely makes the other Raiders jealous on the dance floor.",
       "sources": [
         "Scavenging"
       ]
@@ -4156,7 +4933,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Remote_Control",
       "image": "Remote_Control.png",
-      "description": "The Remote Control is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "0.8",
+      "description": "The Remote Control is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4173,7 +4952,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Resin",
       "image": "Resin.png",
-      "description": "Res inis a common Heal ingitem that can be consumed to gradually res tore a small amount of health over time.",
+      "can_be_found_in": "Nature",
+      "weight": "0.4",
+      "description": "Resin is a common Healing Healing item that can be consumed to gradually restore a small amount of health over time.",
       "sources": [
         "Scavenging"
       ]
@@ -4191,7 +4972,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ripped_Safety_Vest",
       "image": "Ripped_Safety_Vest.png",
-      "description": "The Ripped Safety Vest is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Industrial",
+      "weight": "0.8",
+      "description": "The Ripped Safety Vest is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4211,7 +4994,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rocket_Thruster",
       "image": "Rocket_Thruster.png",
-      "description": "The Rocket Thruster is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "3.0",
+      "description": "The Rocket Thruster is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4233,17 +5018,19 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rocketeer_Driver",
       "image": "Rocketeer_Driver.png",
-      "description": "The Rocketeer Driver is an epic item found by destroy ing Rocketeersor search ing Rocketeer Husksthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "The Rocketeer Driver is an epic item found by destroying Rocketeers Rocketeers or searching Rocketeer Husks Rocketeer Husks that can be recycled into crafting materials.",
+      "sources": [
+        "Rocketeer",
+        "Rocketeer Husk"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Laboratory Reagents, 5x Explosive Compound3x Rocketeer Driver",
           "workshop_level": "Explosives Station 2",
           "upgrade": "Explosives Station 3"
         }
-      ],
-      "sources": [
-        "Rocketeer",
-        "Rocketeer Husk"
       ],
       "recycling_detail": "3×ARC Alloy2×Advanced Electrical Components",
       "salvaging_detail": "2×ARC Circuitry"
@@ -4260,16 +5047,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Roots",
       "image": "Roots.png",
+      "can_be_found_in": "Nature",
+      "weight": "0.2",
       "description": "Roots are an uncommon item.",
+      "sources": [
+        "Scavenging"
+      ],
       "crafting": [
         {
           "ingredients": "4x Fabric, 1x Random Plant Material(Roots/Moss/Agave/Great Mullein)",
           "workshop_level": "→",
           "produces": "Inventory"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "1×Assorted Seeds",
       "salvaging_detail": "1×Assorted Seeds"
@@ -4286,7 +5075,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rope",
       "image": "Rope.png",
-      "description": "Rope is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.3",
+      "description": "Rope is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "1x Rope, 7x Metal Parts",
@@ -4299,13 +5095,12 @@
           "produces": "Utility Station 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "5×Fabric",
-      "salvaging_detail": "2×Fabric"
+      "salvaging_detail": "2×Fabric",
+      "recycled_from": [
+        "Snap Hook (3x)",
+        "Zipline (1x)"
+      ]
     },
     "Rosary": {
       "action": "SELL",
@@ -4317,7 +5112,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Rosary",
       "image": "Rosary.png",
-      "description": "ARosary is very valuable to those who still practice the old religions.",
+      "can_be_found_in": "Old WorldResidential",
+      "weight": "0.3",
+      "description": "A Rosary is very valuable to those who still practice the old religions.",
       "sources": [
         "Scavenging"
       ]
@@ -4335,7 +5132,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rotary_Encoder",
       "image": "Rotary_Encoder.png",
-      "description": "Rotary Encoder is a r are item that can be recycled in to craft ing materials",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "Rotary Encoder is a rare item that can be recycled into crafting materials",
       "sources": [
         "Scavenging"
       ],
@@ -4352,6 +5151,7 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Rubber_Duck",
       "image": "Rubber_Duck.png",
+      "weight": "0.3",
       "description": "MY PRECIOUS RUBBER DUCK, DON'T TOUCH MY PRECIOUS",
       "sources": [
         "Scavenging"
@@ -4369,7 +5169,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rubber_Pad",
       "image": "Rubber_Pad.png",
-      "description": "The Rubber Pad is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Electrical",
+      "weight": "2",
+      "description": "The Rubber Pad is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4389,13 +5191,14 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Rubber_Parts",
       "image": "Rubber_Parts.png",
-      "description": "Rubber Parts are a common item used to craft all sorts of doo-dads your Raider will use while Topside.",
-      "workshop_upgrades": [
-        {
-          "cost": "20x Metal Parts, 30x Rubber Parts",
-          "workshop_level": "-",
-          "upgrade": "Gunsmith 1"
-        }
+      "can_be_found_in": "MechanicalIndustrialElectrical",
+      "weight": "0.1",
+      "description": "Rubber Parts are a common item used to craft all sorts of doo-dads your Raider will use while Topside Topside .",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste",
+        "Scrappy"
       ],
       "crafting": [
         {
@@ -4464,14 +5267,57 @@
           "produces": "Gear Bench 1orWorkbench"
         }
       ],
-      "projects": [
-        "25 November 2025"
+      "workshop_upgrades": [
+        {
+          "cost": "20x Metal Parts, 30x Rubber Parts",
+          "workshop_level": "-",
+          "upgrade": "Gunsmith 1"
+        }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste",
-        "Scrappy"
+      "projects": [
+        {
+          "materials": "150x Metal Parts, 200x Rubber Parts80xARC Alloy15x Steel Spring",
+          "stage_from": "Foundation (1/6)",
+          "stage_to": "→"
+        }
+      ],
+      "recycled_from": [
+        "ARC Flex Rubber (16x)",
+        "Binoculars (2x)",
+        "Combat Mk. 1 (3x)",
+        "Cracked Bioscanner (3x)",
+        "Deflated Football (9x)",
+        "Degraded ARC Rubber (11x)",
+        "Diving Goggles (12x)",
+        "Electrical Components (3x)",
+        "Expired Respirator (8x)",
+        "Ferro I (1x)",
+        "Ferro II (3x)",
+        "Gas Grenade (1x)",
+        "Gas Mine (1x)",
+        "Hairpin I (1x)",
+        "Hairpin II (3x)",
+        "Headphones (7x)",
+        "Heavy Fuze Grenade (2x)",
+        "Kettle I (2x)",
+        "Kettle II (6x)",
+        "Looting Mk. 1 (3x)",
+        "Mechanical Components (2x)",
+        "Remote Raider Flare (1x)",
+        "Rubber Pad (18x)",
+        "Ruined Accordion (18x)",
+        "Ruined Augment (2x)",
+        "Ruined Baton (3x)",
+        "Ruined Riot Shield (6x)",
+        "Shield Recharger (4x)",
+        "Speaker Component (3x)",
+        "Stitcher I (2x)",
+        "Stitcher II (6x)",
+        "Tactical Mk. 1 (3x)",
+        "Thermostat (7x)",
+        "Voltage Converter (1x)",
+        "Water Filter (2x)",
+        "Wires (3x)"
       ]
     },
     "Ruined Accordion": {
@@ -4487,7 +5333,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ruined_Accordion",
       "image": "Ruined_Accordion.png",
-      "description": "The Ru ined Accordion is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "3",
+      "description": "The Ruined Accordion is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4507,7 +5355,8 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ruined_Augment",
       "image": "Ruined_Augment.png",
-      "description": "Ru ined Augment is an item that can be recycled in to craft ing materials.",
+      "weight": "3",
+      "description": "Ruined Augment is an item that can be recycled into crafting materials.",
       "sources": [
         "Combat"
       ],
@@ -4527,7 +5376,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ruined_Baton",
       "image": "Ruined_Baton.png",
-      "description": "Ru ined Ba ton is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "0.8",
+      "description": "Ruined Baton is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4546,7 +5397,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ruined_Handcuffs",
       "image": "Ruined_Handcuffs.png",
-      "description": "The Ru ined Handcuffs are an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "0.8",
+      "description": "The Ruined Handcuffs are an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4565,7 +5418,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ruined_Parachute",
       "image": "Ruined_Parachute.png",
-      "description": "The Ru ined Parachute is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "0.8",
+      "description": "The Ruined Parachute is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "scavenging"
       ],
@@ -4585,7 +5440,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ruined_Tactical_Vest",
       "image": "Ruined_Tactical_Vest.png",
-      "description": "The Ru ined Tactical Vest is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "0.8",
+      "description": "The Ruined Tactical Vest is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "scavenging"
       ],
@@ -4605,7 +5462,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Ruined_Riot_Shield",
       "image": "Ruined_Riot_Shield.png",
-      "description": "The Ru ined Riot Shield is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "2",
+      "description": "The Ruined Riot Shield is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4624,7 +5483,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rusted_Bolts",
       "image": "Rusted_Bolts.png",
-      "description": "Rusted Bolts are an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "MechanicalIndustrial",
+      "weight": "0.8",
+      "description": "Rusted Bolts are an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4646,14 +5507,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rusted_Gear",
       "image": "Rusted_Gear.png",
-      "description": "The Rusted Gear is a r are item that can be recycled in to craft ing materials.",
-      "workshop_upgrades": [
-        {
-          "cost": "3x Rusted Gear, 5x Advanced Mechanical Components4x Sentinel Firing Core",
-          "workshop_level": "Gunsmith 2",
-          "upgrade": "Gunsmith 3"
-        }
-      ],
+      "can_be_found_in": "Industrial",
+      "weight": "3",
+      "description": "The Rusted Gear is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging",
         "Car Hoods",
@@ -4662,6 +5518,13 @@
         "Metal Breach Crates",
         "Car Tool Cabinets",
         "Industrial Drawers"
+      ],
+      "workshop_upgrades": [
+        {
+          "cost": "3x Rusted Gear, 5x Advanced Mechanical Components4x Sentinel Firing Core",
+          "workshop_level": "Gunsmith 2",
+          "upgrade": "Gunsmith 3"
+        }
       ],
       "recycling_detail": "2×Mechanical Components4×Metal Parts",
       "salvaging_detail": "12×Metal Parts"
@@ -4681,7 +5544,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rusted_Shut_Medical_Kit",
       "image": "Rusted_Shut_Medical_Kit.png",
-      "description": "The Rusted Shut Medical Kit is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Medical",
+      "weight": "3",
+      "description": "The Rusted Shut Medical Kit is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4703,16 +5568,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rusted_Tools",
       "image": "Rusted_Tools.png",
-      "description": "Rusted Tools is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "MechanicalIndustrial",
+      "weight": "2",
+      "description": "Rusted Tools is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Rusted Tools, 5x Mechanical Components8x Wasp Driver",
           "workshop_level": "Gunsmith 1",
           "upgrade": "Gunsmith 2"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "1×Steel Spring8×Metal Parts",
       "salvaging_detail": "7×Metal Parts"
@@ -4729,7 +5596,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Rusty_ARC_Steel",
       "image": "Rusty_ARC_Steel.png",
-      "description": "Rusty ARC Steel is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1",
+      "description": "Rusty ARC Steel is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "ARC"
       ],
@@ -4749,7 +5618,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Sample_Cleaner",
       "image": "Sample_Cleaner.png",
-      "description": "The Sample Cleaner is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "The Sample Cleaner is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4771,7 +5642,15 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Sensors",
       "image": "Sensors.png",
-      "description": "Sensors are a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "TechnologicalSecurity",
+      "weight": "0.3",
+      "description": "Sensors are a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste",
+        "Snitch"
+      ],
       "crafting": [
         {
           "ingredients": "1x Crude Explosives, 1x Sensors",
@@ -4790,16 +5669,26 @@
         }
       ],
       "projects": [
-        "25 November 2025"
-      ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste",
-        "Snitch"
+        {
+          "materials": "30x Battery, 5x Light Bulb20x Sensors, 1x Exodus Modules",
+          "stage_from": "Framework (3/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "1×Metal Parts1×Wires",
-      "salvaging_detail": "1×Wires"
+      "salvaging_detail": "1×Wires",
+      "recycled_from": [
+        "Broken Handheld Radio (3x)",
+        "Explosive Mine (1x)",
+        "Flow Controller (1x)",
+        "Radio (1x)",
+        "Radio Relay (2x)",
+        "Remote Control (1x)",
+        "Spectrometer (1x)",
+        "Spectrum Analyzer (1x)",
+        "Tagging Grenade (1x)",
+        "Thermostat (1x)"
+      ]
     },
     "Sentinel Firing Core": {
       "action": "KEEP",
@@ -4815,17 +5704,19 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Sentinel_Firing_Core",
       "image": "Sentinel_Firing_Core.png",
-      "description": "The Sent inel Fir ing Core is a r are item that can be found by destroy ing Sent inels and can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1.0",
+      "description": "The Sentinel Firing Core is a rare item that can be found by destroying Sentinels Sentinels and can be recycled into crafting materials.",
+      "sources": [
+        "Sentinel",
+        "ARC Courier"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Rusted Gear, 5x Advanced Mechanical Components4x Sentinel Firing Core",
           "workshop_level": "Gunsmith 2",
           "upgrade": "Gunsmith 3"
         }
-      ],
-      "sources": [
-        "Sentinel",
-        "ARC Courier"
       ],
       "recycling_detail": "3×Mechanical Components2×ARC Alloy",
       "salvaging_detail": "2×Mechanical Components"
@@ -4843,7 +5734,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Signal_Amplifier",
       "image": "Signal_Amplifier.png",
-      "description": "The Signal Amplifier is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "The Signal Amplifier is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -4860,7 +5753,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Silver_Teaspoon_Set",
       "image": "Silver_Teaspoon_Set.png",
-      "description": "ASilver Teaspoon Setsells for a pretty penny to those with ref ined tastes.",
+      "can_be_found_in": "Old WorldCommercialResidential",
+      "weight": "0.3",
+      "description": "A Silver Teaspoon Set sells for a pretty penny to those with refined tastes.",
       "sources": [
         "Scavenging"
       ]
@@ -4877,7 +5772,15 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Simple_Gun_Parts",
       "image": "Simple_Gun_Parts.png",
-      "description": "Simple Gun Parts are an uncommon item used to upgrade, craft, and repair weapons. They are needed in most weapon recipes and can be ref ined in to Light,Medium and Heavy Gun Partswith the appropriate bluepr ints.",
+      "can_be_found_in": "RaiderSecurity",
+      "weight": "0.3",
+      "description": "Simple Gun Parts are an uncommon item used to upgrade, craft, and repair weapons. They are needed in most weapon recipes and can be refined into Light Light , Medium Medium and Heavy Gun Parts Heavy Gun Parts with the appropriate blueprints.",
+      "sources": [
+        "ARC (Wasps,Hornets,Turrets, etc)",
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "5x Mechanical Components, 6x Simple Gun Parts",
@@ -5000,14 +5903,41 @@
           "produces": "Gunsmith 1"
         }
       ],
-      "sources": [
-        "ARC (Wasps,Hornets,Turrets, etc)",
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "2×Metal Parts",
-      "salvaging_detail": "1×Metal Parts"
+      "salvaging_detail": "1×Metal Parts",
+      "recycled_from": [
+        "Anvil I (2x)",
+        "Anvil II (3x)",
+        "Anvil III (4x)",
+        "Anvil IV (5x)",
+        "Arpeggio I (2x)",
+        "Arpeggio II (3x)",
+        "Arpeggio III (4x)",
+        "Arpeggio IV (5x)",
+        "Burletta I (2x)",
+        "Burletta II (2x)",
+        "Burletta III (3x)",
+        "Burletta IV (4x)",
+        "Complex Gun Parts (3x)",
+        "Ferro III (1x)",
+        "Ferro IV (2x)",
+        "Hairpin III (1x)",
+        "Hairpin IV (2x)",
+        "Heavy Gun Parts (2x)",
+        "Il Toro I (2x)",
+        "Il Toro II (3x)",
+        "Il Toro III (4x)",
+        "Il Toro IV (5x)",
+        "Kettle III (1x)",
+        "Kettle IV (2x)",
+        "Light Gun Parts (2x)",
+        "Medium Gun Parts (2x)",
+        "Rattler III (1x)",
+        "Rattler IV (2x)",
+        "Stitcher III (1x)",
+        "Stitcher IV (2x)",
+        "Unusable Weapon (5x)"
+      ]
     },
     "Snitch Scanner": {
       "action": "KEEP",
@@ -5023,16 +5953,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Snitch_Scanner",
       "image": "Snitch_Scanner.png",
-      "description": "The Snitch Scanner is an uncommon item found by destroy ing Snitchesthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.75",
+      "description": "The Snitch Scanner is an uncommon item found by destroying Snitches Snitches that can be recycled into crafting materials.",
+      "sources": [
+        "Snitch"
+      ],
       "workshop_upgrades": [
         {
           "cost": "2x Damaged Heat Sink, 5x Electrical Components6x Snitch Scanner",
           "workshop_level": "Utility Station 1",
           "upgrade": "Utility Station 2"
         }
-      ],
-      "sources": [
-        "Snitch"
       ],
       "recycling_detail": "2×Electrical Components1×ARC Alloy",
       "salvaging_detail": "2×Electrical Components"
@@ -5047,7 +5979,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Spaceport_Container_Storage_Key",
       "image": "Spaceport_Container_Storage_Key.png",
-      "description": "Opens 1 of 3 locked doors on the East side of the Conta iner Storage in the Acerra Spaceport. The doors to unlock the rooms are located on the top floor.",
+      "weight": "0.25",
+      "description": "Opens 1 of 3 locked doors on the East side of the Container Storage in the Acerra Spaceport Acerra Spaceport . The doors to unlock the rooms are located on the top floor.",
       "sources": [
         "Scavenging",
         "Completing the Quest:Switching The Supply"
@@ -5065,7 +5998,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Spaceport_Control_Tower_Key",
       "image": "Spaceport_Control_Tower_Key.png",
-      "description": "Opens a set of locked doors at ground level inside Control Tower B6 in the Acerra Spaceportthat grant access to the top floor.",
+      "weight": "0.25",
+      "description": "Opens a set of locked doors at ground level inside Control Tower B6 in the Acerra Spaceport Acerra Spaceport that grant access to the top floor.",
       "sources": [
         "Scavenging"
       ]
@@ -5082,7 +6016,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Spaceport_Trench_Tower_Key",
       "image": "Spaceport_Trench_Tower_Key.png",
-      "description": "Opens 8 locked doors at the Spaceport Trench Towers in the Acerra Spaceport. Each tower has 2 doors on the First Floor and 2 doors on the Second Floor.",
+      "weight": "0.25",
+      "description": "Opens 8 locked doors at the Spaceport Trench Towers in the Acerra Spaceport Acerra Spaceport . Each tower has 2 doors on the First Floor and 2 doors on the Second Floor.",
       "sources": [
         "Scavenging"
       ]
@@ -5097,7 +6032,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Spaceport_Warehouse_Key",
       "image": "Spaceport_Warehouse_Key.png",
-      "description": "Opens a set of locked doors on the North side in the Shipp ing Warehouse in the Acerra Spaceport. The doors are located on the Second Floor.",
+      "weight": "0.25",
+      "description": "Opens a set of locked doors on the North side in the Shipping Warehouse in the Acerra Spaceport Acerra Spaceport . The doors are located on the Second Floor.",
       "sources": [
         "Scavenging",
         "Completing the Quest:Switching The Supply"
@@ -5116,7 +6052,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Speaker_Component",
       "image": "Speaker_Component.png",
-      "description": "ASpeaker Component is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Commercial",
+      "weight": "0.3",
+      "description": "A Speaker Component Speaker Component is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "2x Speaker Component, 2x Plastic Parts",
@@ -5129,13 +6072,17 @@
           "produces": "Utility Station 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "3×Rubber Parts2×Plastic Parts",
-      "salvaging_detail": "2×Plastic Parts"
+      "salvaging_detail": "2×Plastic Parts",
+      "recycled_from": [
+        "Frequency Modulation Box (1x)",
+        "Headphones (1x)",
+        "Lure Grenade (1x)",
+        "Noisemaker (1x)",
+        "Photoelectric Cloak (1x)",
+        "Radio (1x)",
+        "Radio Relay (2x)"
+      ]
     },
     "Spectrometer": {
       "action": "RECYCLE",
@@ -5150,7 +6097,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Spectrometer",
       "image": "Spectrometer.png",
-      "description": "Spectrometer is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "Spectrometer is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5170,7 +6119,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Spectrum_Analyzer",
       "image": "Spectrum_Analyzer.png",
-      "description": "The Spectrum Analyzer is an epic item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "The Spectrum Analyzer is an epic item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5190,7 +6141,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Spring_Cushion",
       "image": "Spring_Cushion.png",
-      "description": "ASpr ing Cushion is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "2.0",
+      "description": "A Spring Cushion is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5210,7 +6163,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Spotter_Relay",
       "image": "Spotter_Relay.png",
-      "description": "The Spotter Relay is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1.0",
+      "description": "The Spotter Relay is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging",
         "Killed Spotters"
@@ -5228,7 +6183,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Statuette",
       "image": "Statuette.png",
-      "description": "Look at the adorable t iny Statuette, can you imag ine try ing to haul a whole statue back instead.",
+      "can_be_found_in": "Old WorldResidential",
+      "weight": "0.3",
+      "description": "Look at the adorable tiny Statuette , can you imagine trying to haul a whole statue back instead.",
       "sources": [
         "Scavenging"
       ]
@@ -5247,7 +6204,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Steel_Spring",
       "image": "Steel_Spring.png",
-      "description": "The Steel Spr ing is an uncommon item used to craftweapon modsthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "Industrial",
+      "weight": "0.25",
+      "description": "The Steel Spring is an uncommon item used to craft weapon mods weapon mods that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "2x Steel Spring+2x Mechanical Components",
@@ -5281,14 +6244,29 @@
         }
       ],
       "projects": [
-        "25 November 2025"
-      ],
-      "sources": [
-        "Scavenging",
-        "Sold byCeleste"
+        {
+          "materials": "150x Metal Parts, 200x Rubber Parts80xARC Alloy15x Steel Spring",
+          "stage_from": "Foundation (1/6",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "3×Metal Parts",
-      "salvaging_detail": "2×Metal Parts"
+      "salvaging_detail": "2×Metal Parts",
+      "recycled_from": [
+        "Advanced Mechanical Components (1x)",
+        "Cooling Coil (2x)",
+        "Extended Light Mag II (1x)",
+        "Extended Light Mag III (2x)",
+        "Extended Medium Mag II (1x)",
+        "Extended Medium Mag III (2x)",
+        "Extended Shotgun Mag II (1x)",
+        "Extended Shotgun Mag III (2x)",
+        "Magnetron (1x)",
+        "Mod Components (1x)",
+        "Ruined Accordion (3x)",
+        "Rusted Tools (1x)",
+        "Spring Cushion (2x)"
+      ]
     },
     "Stella Montis Archives Key": {
       "action": "SELL",
@@ -5300,7 +6278,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Stella_Montis_Archives_Key",
       "image": "Stella_Montis_Archives_Key.png",
-      "description": "Opens a door on the Top Floor in the East  right at  Storage Room on Stella Mont is.",
+      "weight": "0.25",
+      "description": "Opens a door on the Top Floor in the East right at Storage Room on Stella Montis Stella Montis .",
       "sources": [
         "Scavenging"
       ]
@@ -5315,7 +6294,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Stella_Montis_Assembly_Admin_Key",
       "image": "Stella_Montis_Assembly_Admin_Key.png",
-      "description": "Unlocks a door somewhere on Stella Mont is",
+      "weight": "0.25",
+      "description": "Unlocks a door somewhere on Stella Montis Stella Montis",
       "sources": [
         "Scavenging"
       ]
@@ -5330,7 +6310,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Stella_Montis_Medical_Storage_Key",
       "image": "Stella_Montis_Medical_Storage_Key.png",
-      "description": "Opens a door somewhere on Stella Mont is",
+      "weight": "0.25",
+      "description": "Opens a door somewhere on Stella Montis Stella Montis",
       "sources": [
         "Scavenging"
       ]
@@ -5345,7 +6326,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Stella_Montis_Security_Checkpoint_Key",
       "image": "Stella_Montis_Security_Checkpoint_Key.png",
-      "description": "Opens a door somewhere on Stella Mont is.",
+      "weight": "0.25",
+      "description": "Opens a door somewhere on Stella Montis Stella Montis .",
       "sources": [
         "Scavenging"
       ]
@@ -5366,17 +6348,19 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Surveyor_Vault",
       "image": "Surveyor_Vault.png",
-      "description": "The Surveyor Vault is a r are item found by destroy ing Surveyorsthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.75",
+      "description": "The Surveyor Vault is a rare item found by destroying Surveyors Surveyors that can be recycled into crafting materials.",
+      "sources": [
+        "Surveyor",
+        "ARC Courier"
+      ],
       "workshop_upgrades": [
         {
           "cost": "5x Surveyor Vault",
           "workshop_level": "Medical Lab II",
           "upgrade": "Medical Lab III"
         }
-      ],
-      "sources": [
-        "Surveyor",
-        "ARC Courier"
       ],
       "recycling_detail": "2×ARC Alloy2×Mechanical Components",
       "salvaging_detail": "2×Mechanical Components"
@@ -5396,7 +6380,13 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Synthesized_Fuel",
       "image": "Synthesized_Fuel.png",
-      "description": "Syn thesized Fuel is a r are item that can be recycled in to craft ing materials or thrown then shot to create a small explosion.",
+      "can_be_found_in": "Exodus",
+      "weight": "0.5",
+      "description": "Synthesized Fuel is a rare item that can be recycled into crafting materials or thrown then shot to create a small explosion.",
+      "sources": [
+        "Scavenging",
+        "Sold byCeleste"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Synthesized Fuel, 5x Crude Explosives5x Pop Trigger",
@@ -5404,12 +6394,11 @@
           "upgrade": "Explosives Station 2"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "1×Oil1×Plastic Parts",
-      "salvaging_detail": "1×Oil"
+      "salvaging_detail": "1×Oil",
+      "recycled_from": [
+        "Rocket Thruster (2x)"
+      ]
     },
     "Syringe": {
       "action": "KEEP",
@@ -5426,7 +6415,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Syringe",
       "image": "Syringe.png",
-      "description": "The Syr inge is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Medical",
+      "weight": "0.3",
+      "description": "The Syringe is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "1x Antiseptic, 1x Syringe",
@@ -5434,13 +6430,12 @@
           "produces": "Medical Lab 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "3×Chemicals2×Plastic Parts",
-      "salvaging_detail": "2×Plastic Parts"
+      "salvaging_detail": "2×Plastic Parts",
+      "recycled_from": [
+        "Rusted Shut Medical Kit (2x)",
+        "Vita Shot (1x)"
+      ]
     },
     "Tattered ARC Lining": {
       "action": "RECYCLE",
@@ -5454,7 +6449,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Tattered_ARC_Lining",
       "image": "Tattered_ARC_Lining.png",
-      "description": "Tattered ARC Lin ing is an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "1.0",
+      "description": "Tattered ARC Lining is an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "ARC"
       ],
@@ -5473,7 +6470,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Tattered_Clothes",
       "image": "Tattered_Clothes.png",
-      "description": "Tattered Clo thes are an uncommon item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "0.8",
+      "description": "Tattered Clothes are an uncommon item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5493,7 +6492,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Telemetry_Transceiver",
       "image": "Telemetry_Transceiver.png",
-      "description": "Telemetry Transceiver is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "1.5",
+      "description": "Telemetry Transceiver is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5513,7 +6514,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Thermostat",
       "image": "Thermostat.png",
-      "description": "AThermostat is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "2.0",
+      "description": "A Thermostat is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5535,16 +6538,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Tick_Pod",
       "image": "Tick_Pod.png",
-      "description": "ATick Pod is an uncommon item found on Ticksthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.25",
+      "description": "A Tick Pod is an uncommon item found on Ticks Ticks that can be recycled into crafting materials.",
+      "sources": [
+        "Tick"
+      ],
       "workshop_upgrades": [
         {
           "cost": "2x Cracked Bioscanner, 5x Durable Cloth8x Tick Pod",
           "workshop_level": "Medical Lab 1",
           "upgrade": "Medical Lab 2"
         }
-      ],
-      "sources": [
-        "Tick"
       ],
       "recycling_detail": "2×Chemicals2×ARC Alloy",
       "salvaging_detail": "1×ARC Alloy"
@@ -5564,16 +6569,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Toaster",
       "image": "Toaster.png",
-      "description": "The Toaster is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Residential",
+      "weight": "2.0",
+      "description": "The Toaster is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Toaster, 5xARC Motion Core8x Fireball Burner",
           "workshop_level": "Refiner 1",
-          "upgrade": "Ref iner 2"
+          "upgrade": "Refiner 2"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ],
       "recycling_detail": "3×Wires5×Plastic Parts",
       "salvaging_detail": "3×Wires"
@@ -5588,7 +6595,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Torn_Book",
       "image": "Torn_Book.png",
-      "description": "Whoever did th is is a monster, how do they expect me to read a Torn Book?",
+      "can_be_found_in": "ResidentialOld World",
+      "weight": "0.3",
+      "description": "Whoever did this is a monster, how do they expect me to read a Torn Book ?",
       "sources": [
         "Scavenging"
       ]
@@ -5605,7 +6614,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Torn_Blanket",
       "image": "Torn_Blanket.png",
-      "description": "The Torn Blanket is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "ResidentialMedical",
+      "weight": "2.0",
+      "description": "The Torn Blanket is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5625,7 +6636,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Turbo_Pump",
       "image": "Turbo_Pump.png",
-      "description": "The Turbo Pump is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Exodus",
+      "weight": "3.0",
+      "description": "The Turbo Pump is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5645,7 +6658,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Unusable_Weapon",
       "image": "Unusable_Weapon.png",
-      "description": "Unusable Weapon is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Security",
+      "weight": "3.0",
+      "description": "Unusable Weapon is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5662,6 +6677,8 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Vase",
       "image": "Vase.png",
+      "can_be_found_in": "Old WorldCommercialResidential",
+      "weight": "0.3",
       "description": "Careful, the Vase is super fragile.",
       "sources": [
         "Scavenging"
@@ -5679,16 +6696,18 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Very_Comfortable_Pillow",
       "image": "Very_Comfortable_Pillow.png",
-      "description": "I could sleep on a Very Com fortable Pillowall day and night.",
+      "can_be_found_in": "CommercialResidential",
+      "weight": "0.3",
+      "description": "I could sleep on a Very Comfortable Pillow all day and night.",
+      "sources": [
+        "Scavenging"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Very Comfortable Pillow, 12x Mushroom12x Apricot",
           "workshop_level": "Scrappy IV",
           "upgrade": "Scrappy V"
         }
-      ],
-      "sources": [
-        "Scavenging"
       ]
     },
     "Volcanic Rock": {
@@ -5701,7 +6720,9 @@
       "recycles_to": [],
       "url": "https://arcraiders.wiki/wiki/Volcanic_Rock",
       "image": "Volcanic_Rock.png",
-      "description": "Careful where you throw th is Volcanic Rock.",
+      "can_be_found_in": "Nature",
+      "weight": "0.5",
+      "description": "Careful where you throw this Volcanic Rock .",
       "sources": [
         "Scavenging"
       ]
@@ -5719,7 +6740,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Voltage_Converter",
       "image": "Voltage_Converter.png",
-      "description": "The Voltage Converter is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Technological",
+      "weight": "0.3",
+      "description": "The Voltage Converter is a rare item that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "1x Power Rod, 2x Voltage Converter",
@@ -5732,13 +6760,14 @@
           "produces": "Explosives Station 3"
         }
       ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
-      ],
       "recycling_detail": "1×Rubber Parts1×Wires",
-      "salvaging_detail": "2×Rubber Parts"
+      "salvaging_detail": "2×Rubber Parts",
+      "recycled_from": [
+        "Heavy Shield (1x)",
+        "Industrial Charger (1x)",
+        "Ion Sputter (4x)",
+        "Signal Amplifier (2x)"
+      ]
     },
     "Wasp Driver": {
       "action": "KEEP",
@@ -5754,16 +6783,18 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Wasp_Driver",
       "image": "Wasp_Driver.png",
-      "description": "The Wasp Driver is a r are item found by destroy ing Waspsthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ARC",
+      "weight": "0.6",
+      "description": "The Wasp Driver is a rare item found by destroying Wasps Wasps that can be recycled into crafting materials.",
+      "sources": [
+        "Wasp"
+      ],
       "workshop_upgrades": [
         {
           "cost": "3x Rusted Tools, 5x Mechanical Components8x Wasp Driver",
           "workshop_level": "Gunsmith 1",
           "upgrade": "Gunsmith 2"
         }
-      ],
-      "sources": [
-        "Wasp"
       ],
       "recycling_detail": "1×Electrical Components1×ARC Alloy",
       "salvaging_detail": "1×Electrical Components"
@@ -5781,7 +6812,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Water_Filter",
       "image": "Water_Filter.png",
-      "description": "The Water Filter is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "Industrial",
+      "weight": "2.0",
+      "description": "The Water Filter is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5803,7 +6836,9 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Water_Pump",
       "image": "Water_Pump.png",
-      "description": "The Water Pump is a r are item that can be recycled in to craft ing materials.",
+      "can_be_found_in": "MechanicalIndustrial",
+      "weight": "2.0",
+      "description": "The Water Pump is a rare item that can be recycled into crafting materials.",
       "sources": [
         "Scavenging"
       ],
@@ -5825,7 +6860,14 @@
       ],
       "url": "https://arcraiders.wiki/wiki/Wires",
       "image": "Wires.png",
-      "description": "Wires are an uncommon item used to craftweapon modsthat can be recycled in to craft ing materials.",
+      "can_be_found_in": "ElectricalTechnological",
+      "weight": "0.25",
+      "description": "Wires are an uncommon item used to craft weapon mods weapon mods that can be recycled into crafting materials.",
+      "sources": [
+        "Scavenging",
+        "Recycling",
+        "Sold byCeleste"
+      ],
       "crafting": [
         {
           "ingredients": "3x Wires, 2x Electrical Components",
@@ -5899,15 +6941,35 @@
         }
       ],
       "projects": [
-        "25 November 2025"
-      ],
-      "sources": [
-        "Scavenging",
-        "Recycling",
-        "Sold byCeleste"
+        {
+          "materials": "35x Durable Cloth, 30x Wires30x Electrical Components, 5x Cooling Fan",
+          "stage_from": "Core System (2/6)",
+          "stage_to": "→"
+        }
       ],
       "recycling_detail": "3×Rubber Parts",
-      "salvaging_detail": "1×Rubber Parts"
+      "salvaging_detail": "1×Rubber Parts",
+      "recycled_from": [
+        "Advanced Electrical Components (1x)",
+        "Broken Handheld Radio (2x)",
+        "Broken Taser (2x)",
+        "Compensator II (1x)",
+        "Compensator III (2x)",
+        "Cooling Fan (4x)",
+        "Damaged Heat Sink (2x)",
+        "Extended Barrel (1x)",
+        "Humidifier (2x)",
+        "Muzzle Brake II (1x)",
+        "Muzzle Brake III (2x)",
+        "Portable TV (6x)",
+        "Power Bank (2x)",
+        "Power Cable (4x)",
+        "Processor (1x)",
+        "Projector (2x)",
+        "Sensors (1x)",
+        "Toaster (3x)",
+        "Voltage Converter (1x)"
+      ]
     }
   }
 }
