@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-01T17:53:07.879314",
+  "last_updated": "2025-12-01T23:39:43.953126",
   "version": "2.0",
   "item_count": 212,
   "items": {
@@ -1466,11 +1466,6 @@
           "ingredients": "2x Plastic Parts, 3x Chemicals",
           "workshop_level": "→",
           "produces": "Explosives Station 1OrInventory"
-        },
-        {
-          "ingredients": "7x Chemicals, 1x Magnet",
-          "workshop_level": "→",
-          "produces": "Explosives Station 2"
         }
       ],
       "workshop_upgrades": [
