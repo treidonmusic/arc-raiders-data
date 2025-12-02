@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-12-02T00:13:25.456691",
-  "scraper_build": "BUILD_20251202_000715",
-  "scraper_timestamp": "2025-12-02 00:07:15",
+  "last_updated": "2025-12-02T13:47:21.745793",
+  "scraper_build": "BUILD_20251202_134119",
+  "scraper_timestamp": "2025-12-02 13:41:19",
   "version": "2.1",
   "item_count": 212,
   "items": {
@@ -844,6 +844,19 @@
         "ScavengingPrimarily found in nature-rich or outdoor areas, particularly in zones with vegetation or degraded facility surroundings rather than high-tech interiors.Scrappy",
         "Primarily found in nature-rich or outdoor areas, particularly in zones with vegetation or degraded facility surroundings rather than high-tech interiors.",
         "Scrappy"
+      ],
+      "recycled_from": [
+        "Agave (3x)",
+        "Apricot (3x)",
+        "Fertilizer (2x)",
+        "Great Mullein (2x)",
+        "Herbal Bandage (2x)",
+        "Lemon (3x)",
+        "Moss (3x)",
+        "Olives (2x)",
+        "Prickly Pear (3x)",
+        "Roots (1x)",
+        "Sample Cleaner (14x)"
       ]
     },
     "Bastion Cell": {
@@ -2234,7 +2247,7 @@
       ],
       "crafting": [
         {
-          "ingredients": "1x Durable Cloth, 3x Great Mullein",
+          "ingredients": "1x Durable Cloth, 1x Great Mullein",
           "workshop_level": "→",
           "produces": "Medical Lab 2"
         },
@@ -2657,11 +2670,21 @@
       "can_be_found_in": "ARC",
       "weight": "0.5",
       "description": "The Fireball Burner is an uncommon item dropped by Fireballs Fireballs that can be recycled into crafting materials.",
+      "sources": [
+        "Fireball"
+      ],
       "crafting": [
         {
           "ingredients": "1x Air Freshener, 1x Fireball Burner",
           "workshop_level": "→",
           "produces": "Inventory"
+        }
+      ],
+      "workshop_upgrades": [
+        {
+          "cost": "3x Toaster, 5xARC Motion Core8x Fireball Burner",
+          "workshop_level": "Refiner 1",
+          "upgrade": "Refiner 2"
         }
       ],
       "recycling_detail": "1×Chemicals1×ARC Alloy",
@@ -2903,7 +2926,9 @@
           "workshop_level": "Gear Bench 1",
           "upgrade": "Gear Bench 2"
         }
-      ]
+      ],
+      "recycling_detail": "2×Electrical Components2×ARC Alloy",
+      "salvaging_detail": "2×Electrical Components"
     },
     "Household Cleaner": {
       "action": "RECYCLE",
@@ -3311,8 +3336,6 @@
           "produces": "Gear Bench 2"
         }
       ],
-      "recycling_detail": "3×Metal Parts",
-      "salvaging_detail": "2×Metal Parts",
       "recycled_from": [
         "Combat Mk. 2 (1x)",
         "Exodus Modules (2x)",
@@ -6346,7 +6369,7 @@
       "url": "https://arcraiders.wiki/wiki/Surveyor_Vault",
       "image": "Surveyor_Vault.png",
       "can_be_found_in": "ARC",
-      "weight": "0.75",
+      "weight": "1",
       "description": "The Surveyor Vault is a rare item found by destroying Surveyors Surveyors that can be recycled into crafting materials.",
       "sources": [
         "Surveyor",
