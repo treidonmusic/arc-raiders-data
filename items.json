@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-12-02T21:47:53.483885",
-  "scraper_build": "BUILD_20251202_214135",
-  "scraper_timestamp": "2025-12-02 21:41:35",
+  "last_updated": "2025-12-05T00:16:30.353050",
+  "scraper_build": "BUILD_20251205_001012",
+  "scraper_timestamp": "2025-12-05 00:10:12",
   "version": "2.2",
   "item_count": 212,
   "items": {
@@ -2381,6 +2381,13 @@
         "Scavenging (Many are found on Stella Montis)",
         "Sold byCeleste"
       ],
+      "crafting": [
+        {
+          "ingredients": "1x Magnetic Accelerator, 3x Heavy Gun Parts, 1x Exodus Modules",
+          "workshop_level": "Gunsmith 3",
+          "produces": "Hullcracker I"
+        }
+      ],
       "projects": [
         {
           "materials": "30x Battery, 5x Light Bulb, 20x Sensors, 1x Exodus Modules",
@@ -2943,7 +2950,8 @@
       "weight": "2",
       "description": "The Humidifier is a rare item that can be recycled into crafting materials.",
       "sources": [
-        "Scavenging"
+        "Scavenging",
+        "AHumidifieris guaranteed to spawn in the Red Tower lockers near Plaza Rosa inBuried City"
       ],
       "projects": [
         {
@@ -4632,7 +4640,7 @@
       "action": "RECYCLE",
       "rarity": "Epic",
       "category": "Advanced Material",
-      "sell_price": "5,500",
+      "sell_price": "5,000",
       "max_stack": "3",
       "needed_for": [],
       "recycles_to": [
@@ -6640,7 +6648,7 @@
       "workshop_upgrades": [
         {
           "cost": "3x Very Comfortable Pillow, 12x Mushroom, 12x Apricot",
-          "workshop_level": "Scrappy IV",
+          "workshop_level": "ScrappyIV",
           "upgrade": "Scrappy V"
         }
       ]
